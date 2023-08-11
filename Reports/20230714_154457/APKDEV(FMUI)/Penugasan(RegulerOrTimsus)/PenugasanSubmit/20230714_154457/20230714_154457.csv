@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PenugasanSubmit,,"Mengerjakan Penugasan Sampai Submit
+Sync Task > Penugasan (Via Menu Button)",,2023-07-14 15:45:09,2023-07-14 15:47:04,1m - 55.383s,PASSED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/Penugasan/PenugasanSyncTask,,Melakukan Sync Task,,2023-07-14 15:45:09,2023-07-14 15:46:27,1m - 17.209s,PASSED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-14 15:45:10,2023-07-14 15:45:35,24.701s,PASSED
+"tap(findTestObject(""androidButtons/FMUI(DEV)/homePage/androidButtonProfile""), 0)",,,,2023-07-14 15:45:35,2023-07-14 15:45:36,0.860s,PASSED
+"verifyElementVisible(findTestObject(""android.Page.ProfileView""), 0)",,,,2023-07-14 15:45:36,2023-07-14 15:45:36,0.303s,PASSED
+"tap(findTestObject(""androidButtons/FMUI(DEV)/profilePage/android.profilePage.ButtonSyncTask""), 0)",,,,2023-07-14 15:45:36,2023-07-14 15:46:25,48.509s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2023-07-14 15:46:25,2023-07-14 15:46:27,2.064s,PASSED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/Penugasan/Penugasan_SampaiDraft,,,,2023-07-14 15:46:27,2023-07-14 15:47:04,37.654s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2023-07-14 15:46:27,2023-07-14 15:46:29,2.018s,PASSED
+"verifyElementVisible(findTestObject(""android.Page.ProfileView""), 3)",,,,2023-07-14 15:46:29,2023-07-14 15:46:30,0.342s,PASSED
+"tap(findTestObject(""androidButtons/FMUI(DEV)/homePage/androidButtonMenu""), 0)",,,,2023-07-14 15:46:30,2023-07-14 15:46:30,0.755s,PASSED
+"tap(findTestObject(""androidButtons/FMUI(DEV)/menuPage/android.menuPage.Button.Penugasan""), 0)",,,,2023-07-14 15:46:30,2023-07-14 15:46:56,25.240s,PASSED
+"tap(findTestObject(""androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.cardPenugasan""), 0)",,,,2023-07-14 15:46:56,2023-07-14 15:46:57,1.267s,PASSED
+"tap(findTestObject(""androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Selanjutnya""), 0)",,,,2023-07-14 15:46:57,2023-07-14 15:46:58,1.523s,PASSED
+"swipe(0, 1926, 0, 1472)",,,,2023-07-14 15:46:58,2023-07-14 15:47:00,1.116s,PASSED
+"verifyElementExist(findTestObject(""androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.selanjutnyaInformasi""), 3)",,,,2023-07-14 15:47:00,2023-07-14 15:47:00,0.234s,PASSED
+"tap(findTestObject(""androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.selanjutnyaInformasi""), 0)",,,,2023-07-14 15:47:00,2023-07-14 15:47:01,1.482s,PASSED
+"tap(findTestObject(""androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.back(PojokKananAtas)""), 0)",,,,2023-07-14 15:47:01,2023-07-14 15:47:02,0.331s,PASSED
+"tap(findTestObject(""androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.back(PojokKananAtas)""), 0)",,,,2023-07-14 15:47:02,2023-07-14 15:47:03,1.561s,PASSED
+"tap(findTestObject(""androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.popUpPage.yesButton""), 0)",,,,2023-07-14 15:47:03,2023-07-14 15:47:04,1.095s,PASSED

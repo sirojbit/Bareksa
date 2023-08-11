@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+androidLoginLogOut,,,,2023-07-17 10:29:45,2023-07-17 10:30:02,17.630s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin.Logout,,,,2023-07-17 10:29:45,2023-07-17 10:30:02,16.891s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-17 10:29:46,2023-07-17 10:30:02,15.291s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/loginPage/android.loginPage.Field.Username""), 0)",,,,2023-07-17 10:30:02,2023-07-17 10:30:02,0.519s,FAILED

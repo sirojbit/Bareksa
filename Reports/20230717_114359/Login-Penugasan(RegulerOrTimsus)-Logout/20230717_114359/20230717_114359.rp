@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20230717_114359</name>
+   <tag></tag>
+   <displayName>20230717_114359</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20230717_114359/APKDEV(FMUI)/LoginLogoutAndroid/androidLoginLogOut/20230717_114401</reportLocation>
+         <runConfigDescription>
+            <groupName>Mobile</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>Xiaomi M2103K19PG (Android 12)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>aihykrce5lrgzhxg</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20230717_114359/APKDEV(FMUI)/Penugasan(RegulerOrTimsus)/PenugasanSubmit/20230717_114403</reportLocation>
+         <runConfigDescription>
+            <groupName>Mobile</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>Xiaomi M2103K19PG (Android 12)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>aihykrce5lrgzhxg</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/Login-Penugasan(RegulerOrTimsus)-Logout</testSuiteCollectionId>
+</ReportCollectionEntity>

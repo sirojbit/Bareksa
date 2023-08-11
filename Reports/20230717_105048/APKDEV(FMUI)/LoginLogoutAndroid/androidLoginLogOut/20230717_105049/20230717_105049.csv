@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+androidLoginLogOut,,,,2023-07-17 10:51:06,2023-07-17 10:51:13,6.527s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin.Logout,,,,2023-07-17 10:51:07,2023-07-17 10:51:13,5.941s,FAILED
+"startApplication(""pkp.mobile.fmui"", false)",,,,2023-07-17 10:51:08,2023-07-17 10:51:13,4.868s,FAILED

@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+positiveTestCases,Chrome 112.0.0.0,,,2023-04-23 19:19:26,2023-04-23 19:22:11,2m - 45.282s,PASSED
+,,,,,,,
+Test Cases/testLogin10Times,Chrome 112.0.0.0,,,2023-04-23 19:19:26,2023-04-23 19:21:57,2m - 30.378s,PASSED
+"callTestCase(findTestCase(""testValidLoginAdmin""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-23 19:19:27,2023-04-23 19:19:43,15.816s,PASSED
+"callTestCase(findTestCase(""testValidLoginAdmin""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-23 19:19:43,2023-04-23 19:19:57,14.318s,PASSED
+"callTestCase(findTestCase(""testValidLoginAdmin""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-23 19:19:57,2023-04-23 19:20:12,15.097s,PASSED
+"callTestCase(findTestCase(""testValidLoginAdmin""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-23 19:20:12,2023-04-23 19:20:27,15.286s,PASSED
+"callTestCase(findTestCase(""testValidLoginAdmin""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-23 19:20:27,2023-04-23 19:20:42,14.562s,PASSED
+"callTestCase(findTestCase(""testValidLoginAdmin""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-23 19:20:42,2023-04-23 19:20:57,14.664s,PASSED
+"callTestCase(findTestCase(""testValidLoginAdmin""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-23 19:20:57,2023-04-23 19:21:11,14.345s,PASSED
+"callTestCase(findTestCase(""testValidLoginAdmin""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-23 19:21:11,2023-04-23 19:21:26,15.183s,PASSED
+"callTestCase(findTestCase(""testValidLoginAdmin""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-23 19:21:26,2023-04-23 19:21:41,14.819s,PASSED
+"callTestCase(findTestCase(""testValidLoginAdmin""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-23 19:21:41,2023-04-23 19:21:57,15.776s,PASSED
+,,,,,,,
+Test Cases/testValidLoginAdmin,Chrome 112.0.0.0,,,2023-04-23 19:21:57,2023-04-23 19:22:11,14.495s,PASSED
+"openBrowser(""https://spartangym.great-site.net/spartan/"")",Chrome 112.0.0.0,,,2023-04-23 19:21:57,2023-04-23 19:22:04,6.974s,PASSED
+"setText(findTestObject(""usernameFieldAdmin""), ""adminspartan"")",Chrome 112.0.0.0,,,2023-04-23 19:22:04,2023-04-23 19:22:05,0.800s,PASSED
+"setText(findTestObject(""passwordFieldAdmin""), ""adminspartan"")",Chrome 112.0.0.0,,,2023-04-23 19:22:05,2023-04-23 19:22:05,0.696s,PASSED
+"click(findTestObject(""buttonLoginAdmin""))",Chrome 112.0.0.0,,,2023-04-23 19:22:05,2023-04-23 19:22:11,6.015s,PASSED

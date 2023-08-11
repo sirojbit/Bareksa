@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PenugasanSubmit" time="130.287" tests="3" failures="0" errors="0">
+   <testsuite name="PenugasanSubmit" tests="3" failures="0" errors="0" time="130.287" skipped="0" timestamp="2023-07-14 15:20:24" hostname="User - 10.30.6.124" id="Test Suites/APKDEV(FMUI)/Penugasan(RegulerOrTimsus)/PenugasanSubmit">
+      <properties>
+         <property name="deviceName" value="Xiaomi M2103K19PG (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\User\\Katalon Studio\\Spartan Gym Test\\Reports\\20230714_152011\\APKDEV(FMUI)\\Penugasan(RegulerOrTimsus)\\PenugasanSubmit\\20230714_152011"/>
+         <property name="logFiles" value="C:\\Users\\User\\Katalon Studio\\Spartan Gym Test\\Reports\\20230714_152011\\APKDEV(FMUI)\\Penugasan(RegulerOrTimsus)\\PenugasanSubmit\\20230714_152011\\appium.log, C:\\Users\\User\\Katalon Studio\\Spartan Gym Test\\Reports\\20230714_152011\\APKDEV(FMUI)\\Penugasan(RegulerOrTimsus)\\PenugasanSubmit\\20230714_152011\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - 10.30.6.124"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.0&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.0"/>
+         <property name="deviceModel" value="M2103K19PG"/>
+         <property name="hostAddress" value="10.30.6.124"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="aihykrce5lrgzhxg"/>
+         <property name="deviceName" value="Xiaomi M2103K19PG (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/APKDEV(FMUI)/Penugasan/PenugasanSyncTask" time="33.003" classname="Test Cases/APKDEV(FMUI)/Penugasan/PenugasanSyncTask" status="PASSED">
+         <system-out><![CDATA[2023-07-14 15:20:24 - [TEST_CASE][PASSED] - Test Cases/APKDEV(FMUI)/Penugasan/PenugasanSyncTask: Test Cases/APKDEV(FMUI)/Penugasan/PenugasanSyncTask
+
+2023-07-14 15:20:25 - [TEST_STEP][PASSED] - startExistingApplication("pkp.mobile.fmui"): Starting app with application ID: 'pkp.mobile.fmui'
+
+2023-07-14 15:20:27 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-07-14 15:20:31 - [MESSAGE][INFO] - Appium server started on port 59,668
+
+2023-07-14 15:20:54 - [MESSAGE][PASSED] - Starting app with application ID: 'pkp.mobile.fmui'
+
+2023-07-14 15:20:54 - [TEST_STEP][PASSED] - tap(findTestObject("androidButtons/FMUI(DEV)/homePage/androidButtonProfile"), 0): Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/homePage/androidButtonProfile'
+
+2023-07-14 15:20:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-14 15:20:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/homePage/androidButtonProfile'
+
+2023-07-14 15:20:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("android.Page.ProfileView"), 0): Element 'Object Repository/android.Page.ProfileView' is visible
+
+2023-07-14 15:20:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-14 15:20:56 - [MESSAGE][PASSED] - Element 'Object Repository/android.Page.ProfileView' is visible
+
+2023-07-14 15:20:56 - [TEST_STEP][PASSED] - tap(findTestObject("androidButtons/FMUI(DEV)/profilePage/android.profilePage.ButtonSyncTask"), 0): Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/profilePage/android.profilePage.ButtonSyncTask'
+
+2023-07-14 15:20:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-14 15:20:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/profilePage/android.profilePage.ButtonSyncTask']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/APKDEV(FMUI)/Penugasan/Penugasan_SampaiDraft" time="53.785" classname="Test Cases/APKDEV(FMUI)/Penugasan/Penugasan_SampaiDraft" status="PASSED">
+         <system-out><![CDATA[2023-07-14 15:20:57 - [TEST_CASE][PASSED] - Test Cases/APKDEV(FMUI)/Penugasan/Penugasan_SampaiDraft: Test Cases/APKDEV(FMUI)/Penugasan/Penugasan_SampaiDraft
+
+2023-07-14 15:20:58 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("android.Page.ProfileView"), 0): Element 'Object Repository/android.Page.ProfileView' is present
+
+2023-07-14 15:20:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-14 15:21:00 - [MESSAGE][PASSED] - Element 'Object Repository/android.Page.ProfileView' is present
+
+2023-07-14 15:21:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("android.Page.ProfileView"), 0): Element 'Object Repository/android.Page.ProfileView' is visible
+
+2023-07-14 15:21:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-14 15:21:01 - [MESSAGE][PASSED] - Element 'Object Repository/android.Page.ProfileView' is visible
+
+2023-07-14 15:21:01 - [TEST_STEP][PASSED] - tap(findTestObject("androidButtons/FMUI(DEV)/homePage/androidButtonMenu"), 0): Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/homePage/androidButtonMenu'
+
+2023-07-14 15:21:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-14 15:21:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/homePage/androidButtonMenu'
+
+2023-07-14 15:21:01 - [TEST_STEP][PASSED] - tap(findTestObject("androidButtons/FMUI(DEV)/menuPage/android.menuPage.Button.Penugasan"), 0): Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/menuPage/android.menuPage.Button.Penugasan'
+
+2023-07-14 15:21:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-14 15:21:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/menuPage/android.menuPage.Button.Penugasan'
+
+2023-07-14 15:21:43 - [TEST_STEP][PASSED] - tap(findTestObject("androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.cardPenugasan"), 0): Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.cardPenugasan'
+
+2023-07-14 15:21:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-14 15:21:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.cardPenugasan'
+
+2023-07-14 15:21:44 - [TEST_STEP][PASSED] - tap(findTestObject("androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Selanjutnya"), 0): Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Selanjutnya'
+
+2023-07-14 15:21:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-14 15:21:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Selanjutnya'
+
+2023-07-14 15:21:46 - [TEST_STEP][PASSED] - swipe(0, 1926, 0, 1472): Swiped from 0,1,926 to 0,1,472
+
+2023-07-14 15:21:47 - [MESSAGE][PASSED] - Swiped from 0,1,926 to 0,1,472
+
+2023-07-14 15:21:47 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.selanjutnyaInformasi"), 3): Element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.selanjutnyaInformasi' is exist
+
+2023-07-14 15:21:47 - [MESSAGE][PASSED] - Element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.selanjutnyaInformasi' is exist
+
+2023-07-14 15:21:47 - [TEST_STEP][PASSED] - tap(findTestObject("androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.selanjutnyaInformasi"), 0): Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.selanjutnyaInformasi'
+
+2023-07-14 15:21:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-14 15:21:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.selanjutnyaInformasi'
+
+2023-07-14 15:21:49 - [TEST_STEP][PASSED] - tap(findTestObject("androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.back(PojokKananAtas)"), 0): Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.back(PojokKananAtas)'
+
+2023-07-14 15:21:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-14 15:21:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.back(PojokKananAtas)'
+
+2023-07-14 15:21:49 - [TEST_STEP][PASSED] - tap(findTestObject("androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.back(PojokKananAtas)"), 0): Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.back(PojokKananAtas)'
+
+2023-07-14 15:21:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-14 15:21:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.back(PojokKananAtas)'
+
+2023-07-14 15:21:51 - [TEST_STEP][PASSED] - tap(findTestObject("androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.popUpPage.yesButton"), 0): Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.popUpPage.yesButton'
+
+2023-07-14 15:21:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-14 15:21:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.popUpPage.yesButton']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PenugasanTimsusOrReguler_BelumAdaKesepakatan" time="42.97" classname="Test Cases/PenugasanTimsusOrReguler_BelumAdaKesepakatan" status="PASSED">
+         <system-out><![CDATA[2023-07-14 15:21:51 - [TEST_CASE][PASSED] - Test Cases/PenugasanTimsusOrReguler_BelumAdaKesepakatan: Test Cases/PenugasanTimsusOrReguler_BelumAdaKesepakatan
+
+2023-07-14 15:21:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("android.widget.Button"), 0): Element 'Object Repository/android.widget.Button' is visible
+
+2023-07-14 15:21:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-14 15:21:52 - [MESSAGE][PASSED] - Element 'Object Repository/android.widget.Button' is visible
+
+2023-07-14 15:21:52 - [TEST_STEP][PASSED] - tap(findTestObject("android.widget.Button"), 0): Tapped on element 'Object Repository/android.widget.Button'
+
+2023-07-14 15:21:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-14 15:21:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button'
+
+2023-07-14 15:21:53 - [TEST_STEP][PASSED] - swipe(0, 1926, 0, 1472): Swiped from 0,1,926 to 0,1,472
+
+2023-07-14 15:21:54 - [MESSAGE][PASSED] - Swiped from 0,1,926 to 0,1,472
+
+2023-07-14 15:21:54 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.Button (1)"), 0): Tapped on element 'Object Repository/android.widget.Button (1)'
+
+2023-07-14 15:21:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-14 15:21:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button (1)'
+
+2023-07-14 15:21:55 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Question1"), 0): Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Question1'
+
+2023-07-14 15:21:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-14 15:21:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Question1'
+
+2023-07-14 15:21:57 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.DDL1.List1"), 0): Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.DDL1.List1'
+
+2023-07-14 15:21:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-14 15:21:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.DDL1.List1'
+
+2023-07-14 15:21:59 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.view.View"), 0): Tapped on element 'Object Repository/android.view.View'
+
+2023-07-14 15:21:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-14 15:22:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.view.View'
+
+2023-07-14 15:22:00 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.DDL1.List2"), 0): Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.DDL1.List2'
+
+2023-07-14 15:22:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-14 15:22:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.DDL1.List2'
+
+2023-07-14 15:22:01 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.view.View (1)"), 0): Tapped on element 'Object Repository/android.view.View (1)'
+
+2023-07-14 15:22:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-14 15:22:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.view.View (1)'
+
+2023-07-14 15:22:02 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.DDL1.List3"), 0): Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.DDL1.List3'
+
+2023-07-14 15:22:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-14 15:22:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.DDL1.List3'
+
+2023-07-14 15:22:03 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.view.View (2)"), 0): Tapped on element 'Object Repository/android.view.View (2)'
+
+2023-07-14 15:22:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-14 15:22:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.view.View (2)'
+
+2023-07-14 15:22:04 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.DDL1.List4"), 0): Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.DDL1.List4'
+
+2023-07-14 15:22:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-14 15:22:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.DDL1.List4'
+
+2023-07-14 15:22:05 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.view.View (3)"), 0): Tapped on element 'Object Repository/android.view.View (3)'
+
+2023-07-14 15:22:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-14 15:22:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.view.View (3)'
+
+2023-07-14 15:22:07 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.DDL1.List5"), 0): Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.DDL1.List5'
+
+2023-07-14 15:22:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-14 15:22:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.DDL1.List5'
+
+2023-07-14 15:22:07 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Question2"), 0): Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Question2'
+
+2023-07-14 15:22:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-14 15:22:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Question2'
+
+2023-07-14 15:22:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.DDL2.List1"), 0): Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.DDL2.List1'
+
+2023-07-14 15:22:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-14 15:22:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.DDL2.List1'
+
+2023-07-14 15:22:10 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Question3"), 0): Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Question3'
+
+2023-07-14 15:22:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-14 15:22:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Question3'
+
+2023-07-14 15:22:12 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.DDL3.List1"), 0): Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.DDL3.List1'
+
+2023-07-14 15:22:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-14 15:22:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.DDL3.List1'
+
+2023-07-14 15:22:13 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Question4"), 0): Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Question4'
+
+2023-07-14 15:22:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-14 15:22:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Question4'
+
+2023-07-14 15:22:14 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.DDL4.List1"), 0): Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.DDL4.List1'
+
+2023-07-14 15:22:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-14 15:22:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.DDL4.List1'
+
+2023-07-14 15:22:15 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Question5"), 0): Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Question5'
+
+2023-07-14 15:22:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-14 15:22:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Question5'
+
+2023-07-14 15:22:16 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.DDL5.List1"), 0): Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.DDL5.List1'
+
+2023-07-14 15:22:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-14 15:22:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.DDL5.List1'
+
+2023-07-14 15:22:17 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Question6"), 0): Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Question6'
+
+2023-07-14 15:22:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-14 15:22:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Question6'
+
+2023-07-14 15:22:19 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.OKDatePicker.Question6"), 0): Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.OKDatePicker.Question6'
+
+2023-07-14 15:22:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-14 15:22:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.OKDatePicker.Question6'
+
+2023-07-14 15:22:20 - [TEST_STEP][PASSED] - swipe(0, 2113, 0, 1690): Swiped from 0,2,113 to 0,1,690
+
+2023-07-14 15:22:21 - [MESSAGE][PASSED] - Swiped from 0,2,113 to 0,1,690
+
+2023-07-14 15:22:21 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Question7(RegulerAndTimsus)"), 0): Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Question7(RegulerAndTimsus)'
+
+2023-07-14 15:22:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-14 15:22:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Question7(RegulerAndTimsus)'
+
+2023-07-14 15:22:22 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/androidButtons/FMUI(DEV)/penugasanPage/DEL"), "0817042023"): Send keys '0817042023' on test object 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/DEL' successfully.
+
+2023-07-14 15:22:23 - [MESSAGE][PASSED] - Send keys '0817042023' on test object 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/DEL' successfully.
+
+2023-07-14 15:22:23 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-07-14 15:22:25 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-07-14 15:22:25 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Question8(RegulerAndTimsus)"), 0): Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Question8(RegulerAndTimsus)'
+
+2023-07-14 15:22:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-14 15:22:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Question8(RegulerAndTimsus)'
+
+2023-07-14 15:22:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/androidButtons/FMUI(DEV)/penugasanPage/DEL (1)"), "AutomateTest 17032023"): Send keys 'AutomateTest 17032023' on test object 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/DEL (1)' successfully.
+
+2023-07-14 15:22:28 - [MESSAGE][PASSED] - Send keys 'AutomateTest 17032023' on test object 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/DEL (1)' successfully.
+
+2023-07-14 15:22:28 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-07-14 15:22:30 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-07-14 15:22:30 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Kirim(RegulerAndTimsus)"), 0): Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Kirim(RegulerAndTimsus)'
+
+2023-07-14 15:22:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-14 15:22:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Kirim(RegulerAndTimsus)'
+
+2023-07-14 15:22:32 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.backToMainPage"), 0): Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.backToMainPage'
+
+2023-07-14 15:22:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-14 15:22:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.backToMainPage'
+
+2023-07-14 15:22:33 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-07-14 15:22:34 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-14 15:20:24 - [TEST_SUITE][PASSED] - PenugasanSubmit: Test Cases/PenugasanTimsusOrReguler_BelumAdaKesepakatan]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

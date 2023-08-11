@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="androidLoginLogOut" time="33.353" tests="1" failures="0" errors="0">
+   <testsuite name="androidLoginLogOut" tests="1" failures="0" errors="0" time="33.353" skipped="0" timestamp="2023-07-17 10:58:26" hostname="User - BHAGAS-PKP" id="Test Suites/APKDEV(FMUI)/LoginLogoutAndroid/androidLoginLogOut">
+      <properties>
+         <property name="deviceName" value="Xiaomi M2103K19PG (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\User\\Katalon Studio\\Spartan Gym Test\\Reports\\20230717_105806\\APKDEV(FMUI)\\LoginLogoutAndroid\\androidLoginLogOut\\20230717_105808"/>
+         <property name="logFiles" value="C:\\Users\\User\\Katalon Studio\\Spartan Gym Test\\Reports\\20230717_105806\\APKDEV(FMUI)\\LoginLogoutAndroid\\androidLoginLogOut\\20230717_105808\\appium.log, C:\\Users\\User\\Katalon Studio\\Spartan Gym Test\\Reports\\20230717_105806\\APKDEV(FMUI)\\LoginLogoutAndroid\\androidLoginLogOut\\20230717_105808\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - BHAGAS-PKP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.0&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.0"/>
+         <property name="deviceModel" value="M2103K19PG"/>
+         <property name="hostAddress" value="192.168.90.206"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="aihykrce5lrgzhxg"/>
+         <property name="deviceName" value="Xiaomi M2103K19PG (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/APKDEV(FMUI)/androidLogin.Logout" time="32.9" classname="Test Cases/APKDEV(FMUI)/androidLogin.Logout" status="PASSED">
+         <system-out><![CDATA[2023-07-17 10:58:26 - [TEST_CASE][PASSED] - Test Cases/APKDEV(FMUI)/androidLogin.Logout: Test Cases/APKDEV(FMUI)/androidLogin.Logout
+
+2023-07-17 10:58:27 - [TEST_STEP][PASSED] - startApplication("C:\Adwityo\FM-UI\APK-DEV\fmui-dev-1.91.apk", false): Started app at: 'C:\Adwityo\FM-UI\APK-DEV\fmui-dev-1.91.apk'
+
+2023-07-17 10:58:27 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-07-17 10:58:29 - [MESSAGE][INFO] - Appium server started on port 53,638
+
+2023-07-17 10:58:46 - [MESSAGE][PASSED] - Started app at: 'C:\Adwityo\FM-UI\APK-DEV\fmui-dev-1.91.apk'
+
+2023-07-17 10:58:46 - [TEST_STEP][PASSED] - tap(findTestObject("androidButtons/FMUI(DEV)/loginPage/android.loginPage.Field.Username"), 0): Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/loginPage/android.loginPage.Field.Username'
+
+2023-07-17 10:58:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-17 10:58:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/loginPage/android.loginPage.Field.Username'
+
+2023-07-17 10:58:52 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2023-07-17 10:58:52 - [TEST_STEP][PASSED] - getKeyboard().sendKeys("mitra130323"): null
+
+2023-07-17 10:58:52 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-07-17 10:58:54 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-07-17 10:58:54 - [TEST_STEP][PASSED] - tap(findTestObject("androidButtons/FMUI(DEV)/loginPage/android.loginPage.Field.Password"), 0): Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/loginPage/android.loginPage.Field.Password'
+
+2023-07-17 10:58:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-17 10:58:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/loginPage/android.loginPage.Field.Password'
+
+2023-07-17 10:58:55 - [TEST_STEP][PASSED] - getKeyboard().sendKeys("1234Qwer"): null
+
+2023-07-17 10:58:55 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-07-17 10:58:57 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-07-17 10:58:57 - [TEST_STEP][PASSED] - tap(findTestObject("androidButtons/FMUI(DEV)/loginPage/androidButtonLogin"), 2): Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/loginPage/androidButtonLogin'
+
+2023-07-17 10:58:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/androidButtons/FMUI(DEV)/loginPage/androidButtonLogin']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-17 10:58:26 - [TEST_SUITE][PASSED] - androidLoginLogOut: Test Cases/APKDEV(FMUI)/androidLogin.Logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

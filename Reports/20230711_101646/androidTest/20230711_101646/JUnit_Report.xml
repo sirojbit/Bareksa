@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="androidTest" time="48.961" tests="2" failures="0" errors="0">
+   <testsuite name="androidTest" tests="2" failures="0" errors="0" time="48.961" skipped="0" timestamp="2023-07-11 10:16:59" hostname="User - BHAGAS-PKP" id="Test Suites/androidTest">
+      <properties>
+         <property name="deviceName" value="Xiaomi M2103K19PG (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\User\\Katalon Studio\\Spartan Gym Test\\Reports\\20230711_101646\\androidTest\\20230711_101646"/>
+         <property name="logFiles" value="C:\\Users\\User\\Katalon Studio\\Spartan Gym Test\\Reports\\20230711_101646\\androidTest\\20230711_101646\\appium.log, C:\\Users\\User\\Katalon Studio\\Spartan Gym Test\\Reports\\20230711_101646\\androidTest\\20230711_101646\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - BHAGAS-PKP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.0&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.0"/>
+         <property name="deviceModel" value="M2103K19PG"/>
+         <property name="hostAddress" value="192.168.90.206"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="aihykrce5lrgzhxg"/>
+         <property name="deviceName" value="Xiaomi M2103K19PG (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/APKDEV(FMUI)/androidLogin" time="28.921" classname="Test Cases/APKDEV(FMUI)/androidLogin" status="PASSED">
+         <system-out><![CDATA[2023-07-11 10:16:59 - [TEST_CASE][PASSED] - Test Cases/APKDEV(FMUI)/androidLogin: Test Cases/APKDEV(FMUI)/androidLogin
+
+2023-07-11 10:17:00 - [TEST_STEP][PASSED] - startExistingApplication("pkp.mobile.fmui"): Starting app with application ID: 'pkp.mobile.fmui'
+
+2023-07-11 10:17:00 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-07-11 10:17:02 - [MESSAGE][INFO] - Appium server started on port 50,480
+
+2023-07-11 10:17:20 - [MESSAGE][PASSED] - Starting app with application ID: 'pkp.mobile.fmui'
+
+2023-07-11 10:17:20 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/androidButtons/androidFieldUsername"), 0): Tapped on element 'Object Repository/androidButtons/androidFieldUsername'
+
+2023-07-11 10:17:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-11 10:17:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/androidButtons/androidFieldUsername'
+
+2023-07-11 10:17:21 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2023-07-11 10:17:21 - [TEST_STEP][PASSED] - getKeyboard().sendKeys("mitra130323"): null
+
+2023-07-11 10:17:22 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-07-11 10:17:24 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-07-11 10:17:24 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/androidButtons/androidFieldPassword"), 0): Tapped on element 'Object Repository/androidButtons/androidFieldPassword'
+
+2023-07-11 10:17:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-11 10:17:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/androidButtons/androidFieldPassword'
+
+2023-07-11 10:17:25 - [TEST_STEP][PASSED] - getKeyboard().sendKeys("1234Qwer"): null
+
+2023-07-11 10:17:25 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-07-11 10:17:27 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-07-11 10:17:27 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/androidButtons/androidButtonLogin"), 0): Tapped on element 'Object Repository/androidButtons/androidButtonLogin'
+
+2023-07-11 10:17:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-11 10:17:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/androidButtons/androidButtonLogin']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/APKDEV(FMUI)/androidLogout" time="19.678" classname="Test Cases/APKDEV(FMUI)/androidLogout" status="PASSED">
+         <system-out><![CDATA[2023-07-11 10:17:28 - [TEST_CASE][PASSED] - Test Cases/APKDEV(FMUI)/androidLogout: Test Cases/APKDEV(FMUI)/androidLogout
+
+2023-07-11 10:17:28 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/androidButtons/androidButtonProfile"), 0): Tapped on element 'Object Repository/androidButtons/androidButtonProfile'
+
+2023-07-11 10:17:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+2023-07-11 10:17:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/androidButtons/androidButtonProfile'
+
+2023-07-11 10:17:46 - [TEST_STEP][PASSED] - tap(findTestObject("androidButtons/androidButtonLogout"), 5): Tapped on element 'Object Repository/androidButtons/androidButtonLogout'
+
+2023-07-11 10:17:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/androidButtons/androidButtonLogout'
+
+2023-07-11 10:17:47 - [TEST_STEP][PASSED] - tap(findTestObject("androidButtons/androidButtonSignOut"), 5): Tapped on element 'Object Repository/androidButtons/androidButtonSignOut'
+
+2023-07-11 10:17:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/androidButtons/androidButtonSignOut']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-11 10:16:59 - [TEST_SUITE][PASSED] - androidTest: Test Cases/APKDEV(FMUI)/androidLogout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

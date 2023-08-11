@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PenugasanSubmit,,"Mengerjakan Penugasan Sampai Submit
+Sync Task > Penugasan (Via Menu Button)",,2023-07-14 15:26:28,2023-07-14 15:27:31,1m - 3.023s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/Penugasan/PenugasanSyncTask,,Melakukan Sync Task,,2023-07-14 15:26:28,2023-07-14 15:27:00,32.268s,PASSED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-14 15:26:29,2023-07-14 15:26:53,24.191s,PASSED
+"tap(findTestObject(""androidButtons/FMUI(DEV)/homePage/androidButtonProfile""), 0)",,,,2023-07-14 15:26:53,2023-07-14 15:26:54,0.862s,PASSED
+"verifyElementVisible(findTestObject(""android.Page.ProfileView""), 0)",,,,2023-07-14 15:26:54,2023-07-14 15:26:55,1.197s,PASSED
+"tap(findTestObject(""androidButtons/FMUI(DEV)/profilePage/android.profilePage.ButtonSyncTask""), 0)",,,,2023-07-14 15:26:55,2023-07-14 15:27:00,5.402s,PASSED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/Penugasan/Penugasan_SampaiDraft,,,,2023-07-14 15:27:00,2023-07-14 15:27:31,30.251s,FAILED
+"waitForElementPresent(findTestObject(""android.Page.ProfileView""), 2)",,,,2023-07-14 15:27:01,2023-07-14 15:27:03,2.240s,PASSED
+"verifyElementVisible(findTestObject(""android.Page.ProfileView""), 3)",,,,2023-07-14 15:27:03,2023-07-14 15:27:04,1.101s,PASSED
+"tap(findTestObject(""androidButtons/FMUI(DEV)/homePage/androidButtonMenu""), 0)",,,,2023-07-14 15:27:04,2023-07-14 15:27:05,0.345s,PASSED
+"tap(findTestObject(""androidButtons/FMUI(DEV)/menuPage/android.menuPage.Button.Penugasan""), 0)",,,,2023-07-14 15:27:05,2023-07-14 15:27:24,19.262s,PASSED
+"tap(findTestObject(""androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.cardPenugasan""), 0)",,,,2023-07-14 15:27:24,2023-07-14 15:27:25,1.279s,PASSED
+"tap(findTestObject(""androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Selanjutnya""), 0)",,,,2023-07-14 15:27:25,2023-07-14 15:27:25,0.245s,PASSED
+"swipe(0, 1926, 0, 1472)",,,,2023-07-14 15:27:25,2023-07-14 15:27:27,1.123s,PASSED
+"verifyElementExist(findTestObject(""androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.selanjutnyaInformasi""), 3)",,,,2023-07-14 15:27:27,2023-07-14 15:27:31,4.003s,FAILED

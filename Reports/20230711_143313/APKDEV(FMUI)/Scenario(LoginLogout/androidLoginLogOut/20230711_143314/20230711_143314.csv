@@ -1,0 +1,83 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+androidLoginLogOut,,,,2023-07-11 14:33:26,2023-07-11 14:33:29,2.990s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin,,,,2023-07-11 14:33:26,2023-07-11 14:33:27,1.001s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-11 14:33:27,2023-07-11 14:33:27,0.345s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin,,,,2023-07-11 14:33:27,2023-07-11 14:33:27,0.100s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-11 14:33:27,2023-07-11 14:33:27,0.042s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin,,,,2023-07-11 14:33:27,2023-07-11 14:33:27,0.038s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-11 14:33:27,2023-07-11 14:33:27,0.009s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin,,,,2023-07-11 14:33:27,2023-07-11 14:33:27,0.091s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-11 14:33:27,2023-07-11 14:33:27,0.011s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin,,,,2023-07-11 14:33:27,2023-07-11 14:33:28,0.057s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-11 14:33:28,2023-07-11 14:33:28,0.013s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin,,,,2023-07-11 14:33:28,2023-07-11 14:33:28,0.043s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-11 14:33:28,2023-07-11 14:33:28,0.012s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin,,,,2023-07-11 14:33:28,2023-07-11 14:33:28,0.023s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-11 14:33:28,2023-07-11 14:33:28,0.006s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin,,,,2023-07-11 14:33:28,2023-07-11 14:33:28,0.033s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-11 14:33:28,2023-07-11 14:33:28,0.013s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin,,,,2023-07-11 14:33:28,2023-07-11 14:33:28,0.024s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-11 14:33:28,2023-07-11 14:33:28,0.007s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin,,,,2023-07-11 14:33:28,2023-07-11 14:33:28,0.030s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-11 14:33:28,2023-07-11 14:33:28,0.007s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin,,,,2023-07-11 14:33:28,2023-07-11 14:33:28,0.023s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-11 14:33:28,2023-07-11 14:33:28,0.007s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin,,,,2023-07-11 14:33:28,2023-07-11 14:33:28,0.019s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-11 14:33:28,2023-07-11 14:33:28,0.006s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin,,,,2023-07-11 14:33:28,2023-07-11 14:33:28,0.025s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-11 14:33:28,2023-07-11 14:33:28,0.007s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin,,,,2023-07-11 14:33:28,2023-07-11 14:33:28,0.030s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-11 14:33:28,2023-07-11 14:33:28,0.006s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin,,,,2023-07-11 14:33:28,2023-07-11 14:33:28,0.018s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-11 14:33:28,2023-07-11 14:33:28,0.004s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin,,,,2023-07-11 14:33:28,2023-07-11 14:33:28,0.022s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-11 14:33:28,2023-07-11 14:33:28,0.006s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin,,,,2023-07-11 14:33:28,2023-07-11 14:33:28,0.030s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-11 14:33:28,2023-07-11 14:33:28,0.013s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin,,,,2023-07-11 14:33:28,2023-07-11 14:33:28,0.016s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-11 14:33:28,2023-07-11 14:33:28,0.005s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin,,,,2023-07-11 14:33:28,2023-07-11 14:33:28,0.016s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-11 14:33:28,2023-07-11 14:33:28,0.005s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin,,,,2023-07-11 14:33:28,2023-07-11 14:33:28,0.023s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-11 14:33:28,2023-07-11 14:33:28,0.006s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin,,,,2023-07-11 14:33:28,2023-07-11 14:33:28,0.025s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-11 14:33:28,2023-07-11 14:33:28,0.008s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin,,,,2023-07-11 14:33:28,2023-07-11 14:33:28,0.015s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-11 14:33:28,2023-07-11 14:33:28,0.005s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin,,,,2023-07-11 14:33:28,2023-07-11 14:33:28,0.013s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-11 14:33:28,2023-07-11 14:33:28,0.004s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin,,,,2023-07-11 14:33:28,2023-07-11 14:33:28,0.015s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-11 14:33:28,2023-07-11 14:33:28,0.006s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin,,,,2023-07-11 14:33:29,2023-07-11 14:33:29,0.011s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-11 14:33:29,2023-07-11 14:33:29,0.003s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin,,,,2023-07-11 14:33:29,2023-07-11 14:33:29,0.016s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-11 14:33:29,2023-07-11 14:33:29,0.005s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin,,,,2023-07-11 14:33:29,2023-07-11 14:33:29,0.019s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-11 14:33:29,2023-07-11 14:33:29,0.005s,FAILED

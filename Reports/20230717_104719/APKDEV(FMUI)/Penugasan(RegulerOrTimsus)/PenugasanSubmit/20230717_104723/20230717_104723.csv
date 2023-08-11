@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PenugasanSubmit,,"Mengerjakan Penugasan Sampai Submit
+Sync Task > Penugasan (Via Menu Button)",,2023-07-17 10:48:12,2023-07-17 10:48:26,14.009s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/Penugasan/PenugasanSyncTask,,Melakukan Sync Task,,2023-07-17 10:48:12,2023-07-17 10:48:14,1.461s,FAILED
+"tap(findTestObject(""androidButtons/FMUI(DEV)/homePage/androidButtonProfile""), 0)",,,,2023-07-17 10:48:13,2023-07-17 10:48:14,0.768s,PASSED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/Penugasan/Penugasan_SampaiDraft,,,,2023-07-17 10:48:14,2023-07-17 10:48:20,6.251s,FAILED
+"delay(5, STOP_ON_FAILURE)",,,,2023-07-17 10:48:15,2023-07-17 10:48:20,5.141s,PASSED
+"verifyElementVisible(findTestObject(""android.Page.ProfileView""), 3)",,,,2023-07-17 10:48:20,2023-07-17 10:48:20,0.104s,PASSED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/Penugasan/PenugasanTimsusOrReguler_BelumAdaKesepakatan,,,,2023-07-17 10:48:20,2023-07-17 10:48:26,5.750s,FAILED
+"delay(5, STOP_ON_FAILURE)",,,,2023-07-17 10:48:21,2023-07-17 10:48:26,5.011s,PASSED
+"tap(findTestObject(""android.widget.Button""), 0)",,,,2023-07-17 10:48:26,2023-07-17 10:48:26,0.080s,PASSED

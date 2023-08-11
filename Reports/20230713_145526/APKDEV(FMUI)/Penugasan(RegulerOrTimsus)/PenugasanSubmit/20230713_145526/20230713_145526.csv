@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PenugasanSubmit,,"Mengerjakan Penugasan Sampai Submit
+Sync Task > Penugasan (Via Menu Button)",,2023-07-13 14:55:39,2023-07-13 14:55:42,2.577s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/Penugasan/Penugasan_SampaiDraft,,,,2023-07-13 14:55:39,2023-07-13 14:55:41,1.320s,FAILED
+"tap(findTestObject(""androidButtons/FMUI(DEV)/homePage/androidButtonMenu""), 0)",,,,2023-07-13 14:55:40,2023-07-13 14:55:41,0.706s,PASSED
+,,,,,,,
+Test Cases/New Test Case,,,,2023-07-13 14:55:41,2023-07-13 14:55:42,0.793s,FAILED
+"tap(findTestObject(""Object Repository/android.widget.Button""), 0)",,,,2023-07-13 14:55:41,2023-07-13 14:55:42,0.103s,PASSED

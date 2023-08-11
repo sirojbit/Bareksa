@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+androidTest,,,,2023-07-10 14:43:26,2023-07-10 14:43:27,1.304s,FAILED
+,,,,,,,
+Test Cases/androidLogin,,,,2023-07-10 14:43:26,2023-07-10 14:43:27,0.945s,FAILED
+"startApplication(""C:\Adwityo\FM-UI\APK-DEV\fmui-dev-1.91.apk"", true)",,,,2023-07-10 14:43:27,2023-07-10 14:43:27,0.381s,FAILED

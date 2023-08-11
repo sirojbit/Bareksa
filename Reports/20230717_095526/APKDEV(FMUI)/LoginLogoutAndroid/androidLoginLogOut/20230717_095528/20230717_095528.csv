@@ -1,0 +1,152 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+androidLoginLogOut,,,,2023-07-17 09:55:56,2023-07-17 10:17:09,21m - 13.113s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin.Logout,,,,2023-07-17 09:55:57,2023-07-17 09:56:41,44.510s,PASSED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-17 09:55:58,2023-07-17 09:56:31,33.003s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/loginPage/android.loginPage.Field.Username""), 0)",,,,2023-07-17 09:56:31,2023-07-17 09:56:32,1.263s,PASSED
+driver = getDriver(),,,,2023-07-17 09:56:32,2023-07-17 09:56:32,0.001s,PASSED
+"getKeyboard().sendKeys(""mitra130323"")",,,,2023-07-17 09:56:32,2023-07-17 09:56:33,0.850s,PASSED
+hideKeyboard(),,,,2023-07-17 09:56:33,2023-07-17 09:56:36,2.988s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/loginPage/android.loginPage.Field.Password""), 0)",,,,2023-07-17 09:56:36,2023-07-17 09:56:37,1.025s,PASSED
+"getKeyboard().sendKeys(""1234Qwer"")",,,,2023-07-17 09:56:37,2023-07-17 09:56:38,0.630s,PASSED
+hideKeyboard(),,,,2023-07-17 09:56:38,2023-07-17 09:56:40,1.989s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/loginPage/androidButtonLogin""), 2)",,,,2023-07-17 09:56:40,2023-07-17 09:56:41,1.377s,PASSED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin.Logout,,,,2023-07-17 09:56:41,2023-07-17 09:59:04,2m - 22.492s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-17 09:56:41,2023-07-17 09:57:02,21.209s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/loginPage/android.loginPage.Field.Username""), 0)",,,,2023-07-17 09:57:02,2023-07-17 09:59:04,2m - 1.228s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin.Logout,,,,2023-07-17 09:59:04,2023-07-17 10:00:11,1m - 7.663s,PASSED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-17 09:59:04,2023-07-17 09:59:19,14.935s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/loginPage/android.loginPage.Field.Username""), 0)",,,,2023-07-17 09:59:19,2023-07-17 10:00:05,45.864s,PASSED
+driver = getDriver(),,,,2023-07-17 10:00:05,2023-07-17 10:00:05,0.000s,PASSED
+"getKeyboard().sendKeys(""mitra130323"")",,,,2023-07-17 10:00:05,2023-07-17 10:00:05,0.679s,PASSED
+hideKeyboard(),,,,2023-07-17 10:00:05,2023-07-17 10:00:07,1.826s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/loginPage/android.loginPage.Field.Password""), 0)",,,,2023-07-17 10:00:07,2023-07-17 10:00:08,0.705s,PASSED
+"getKeyboard().sendKeys(""1234Qwer"")",,,,2023-07-17 10:00:08,2023-07-17 10:00:08,0.588s,PASSED
+hideKeyboard(),,,,2023-07-17 10:00:08,2023-07-17 10:00:10,1.792s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/loginPage/androidButtonLogin""), 2)",,,,2023-07-17 10:00:10,2023-07-17 10:00:11,1.243s,PASSED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin.Logout,,,,2023-07-17 10:00:11,2023-07-17 10:01:40,1m - 29.023s,PASSED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-17 10:00:11,2023-07-17 10:00:29,17.885s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/loginPage/android.loginPage.Field.Username""), 0)",,,,2023-07-17 10:00:29,2023-07-17 10:01:33,1m - 3.467s,PASSED
+driver = getDriver(),,,,2023-07-17 10:01:33,2023-07-17 10:01:33,0.000s,PASSED
+"getKeyboard().sendKeys(""mitra130323"")",,,,2023-07-17 10:01:33,2023-07-17 10:01:33,0.692s,PASSED
+hideKeyboard(),,,,2023-07-17 10:01:33,2023-07-17 10:01:36,2.281s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/loginPage/android.loginPage.Field.Password""), 0)",,,,2023-07-17 10:01:36,2023-07-17 10:01:37,1.081s,PASSED
+"getKeyboard().sendKeys(""1234Qwer"")",,,,2023-07-17 10:01:37,2023-07-17 10:01:37,0.441s,PASSED
+hideKeyboard(),,,,2023-07-17 10:01:37,2023-07-17 10:01:39,1.854s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/loginPage/androidButtonLogin""), 2)",,,,2023-07-17 10:01:39,2023-07-17 10:01:40,1.304s,PASSED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin.Logout,,,,2023-07-17 10:01:40,2023-07-17 10:02:55,1m - 14.566s,PASSED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-17 10:01:41,2023-07-17 10:02:04,23.086s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/loginPage/android.loginPage.Field.Username""), 0)",,,,2023-07-17 10:02:04,2023-07-17 10:02:48,44.389s,PASSED
+driver = getDriver(),,,,2023-07-17 10:02:48,2023-07-17 10:02:48,0.000s,PASSED
+"getKeyboard().sendKeys(""mitra130323"")",,,,2023-07-17 10:02:48,2023-07-17 10:02:49,0.744s,PASSED
+hideKeyboard(),,,,2023-07-17 10:02:49,2023-07-17 10:02:51,1.913s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/loginPage/android.loginPage.Field.Password""), 0)",,,,2023-07-17 10:02:51,2023-07-17 10:02:51,0.674s,PASSED
+"getKeyboard().sendKeys(""1234Qwer"")",,,,2023-07-17 10:02:51,2023-07-17 10:02:52,0.591s,PASSED
+hideKeyboard(),,,,2023-07-17 10:02:52,2023-07-17 10:02:54,1.880s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/loginPage/androidButtonLogin""), 2)",,,,2023-07-17 10:02:54,2023-07-17 10:02:55,1.241s,PASSED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin.Logout,,,,2023-07-17 10:02:55,2023-07-17 10:05:18,2m - 22.927s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-17 10:02:55,2023-07-17 10:03:16,21.255s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/loginPage/android.loginPage.Field.Username""), 0)",,,,2023-07-17 10:03:16,2023-07-17 10:05:18,2m - 1.655s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin.Logout,,,,2023-07-17 10:05:18,2023-07-17 10:05:50,32.302s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-17 10:05:18,2023-07-17 10:05:35,16.881s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/loginPage/android.loginPage.Field.Username""), 0)",,,,2023-07-17 10:05:35,2023-07-17 10:05:50,15.405s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin.Logout,,,,2023-07-17 10:05:50,2023-07-17 10:06:30,39.546s,PASSED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-17 10:05:50,2023-07-17 10:06:14,23.407s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/loginPage/android.loginPage.Field.Username""), 0)",,,,2023-07-17 10:06:14,2023-07-17 10:06:23,9.432s,PASSED
+driver = getDriver(),,,,2023-07-17 10:06:23,2023-07-17 10:06:23,0.001s,PASSED
+"getKeyboard().sendKeys(""mitra130323"")",,,,2023-07-17 10:06:23,2023-07-17 10:06:24,0.665s,PASSED
+hideKeyboard(),,,,2023-07-17 10:06:24,2023-07-17 10:06:26,1.791s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/loginPage/android.loginPage.Field.Password""), 0)",,,,2023-07-17 10:06:26,2023-07-17 10:06:26,0.653s,PASSED
+"getKeyboard().sendKeys(""1234Qwer"")",,,,2023-07-17 10:06:26,2023-07-17 10:06:27,0.481s,PASSED
+hideKeyboard(),,,,2023-07-17 10:06:27,2023-07-17 10:06:29,1.854s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/loginPage/androidButtonLogin""), 2)",,,,2023-07-17 10:06:29,2023-07-17 10:06:30,1.247s,PASSED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin.Logout,,,,2023-07-17 10:06:30,2023-07-17 10:08:20,1m - 50.069s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-17 10:06:30,2023-07-17 10:06:52,21.682s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/loginPage/android.loginPage.Field.Username""), 0)",,,,2023-07-17 10:06:52,2023-07-17 10:08:07,1m - 14.832s,PASSED
+driver = getDriver(),,,,2023-07-17 10:08:07,2023-07-17 10:08:07,0.001s,PASSED
+"getKeyboard().sendKeys(""mitra130323"")",,,,2023-07-17 10:08:07,2023-07-17 10:08:07,0.619s,PASSED
+hideKeyboard(),,,,2023-07-17 10:08:07,2023-07-17 10:08:09,1.814s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/loginPage/android.loginPage.Field.Password""), 0)",,,,2023-07-17 10:08:09,2023-07-17 10:08:13,3.620s,PASSED
+"getKeyboard().sendKeys(""1234Qwer"")",,,,2023-07-17 10:08:13,2023-07-17 10:08:13,0.588s,PASSED
+hideKeyboard(),,,,2023-07-17 10:08:13,2023-07-17 10:08:14,1.064s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/loginPage/androidButtonLogin""), 2)",,,,2023-07-17 10:08:14,2023-07-17 10:08:20,5.834s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin.Logout,,,,2023-07-17 10:08:20,2023-07-17 10:08:22,2.265s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-17 10:08:20,2023-07-17 10:08:22,2.237s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin.Logout,,,,2023-07-17 10:08:22,2023-07-17 10:08:26,3.525s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-17 10:08:22,2023-07-17 10:08:26,3.463s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin.Logout,,,,2023-07-17 10:08:26,2023-07-17 10:08:46,20.051s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-17 10:08:26,2023-07-17 10:08:46,19.975s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin.Logout,,,,2023-07-17 10:08:46,2023-07-17 10:08:56,9.469s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-17 10:08:46,2023-07-17 10:08:56,9.376s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin.Logout,,,,2023-07-17 10:08:56,2023-07-17 10:10:35,1m - 39.134s,PASSED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-17 10:08:56,2023-07-17 10:09:42,45.951s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/loginPage/android.loginPage.Field.Username""), 0)",,,,2023-07-17 10:09:42,2023-07-17 10:10:27,45.637s,PASSED
+driver = getDriver(),,,,2023-07-17 10:10:27,2023-07-17 10:10:27,0.001s,PASSED
+"getKeyboard().sendKeys(""mitra130323"")",,,,2023-07-17 10:10:27,2023-07-17 10:10:29,1.256s,PASSED
+hideKeyboard(),,,,2023-07-17 10:10:29,2023-07-17 10:10:30,1.772s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/loginPage/android.loginPage.Field.Password""), 0)",,,,2023-07-17 10:10:30,2023-07-17 10:10:31,0.840s,PASSED
+"getKeyboard().sendKeys(""1234Qwer"")",,,,2023-07-17 10:10:31,2023-07-17 10:10:32,0.588s,PASSED
+hideKeyboard(),,,,2023-07-17 10:10:32,2023-07-17 10:10:34,1.717s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/loginPage/androidButtonLogin""), 2)",,,,2023-07-17 10:10:34,2023-07-17 10:10:35,1.336s,PASSED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin.Logout,,,,2023-07-17 10:10:35,2023-07-17 10:12:22,1m - 46.662s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-17 10:10:35,2023-07-17 10:10:58,22.917s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/loginPage/android.loginPage.Field.Username""), 0)",,,,2023-07-17 10:10:58,2023-07-17 10:12:22,1m - 23.717s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin.Logout,,,,2023-07-17 10:12:22,2023-07-17 10:12:40,18.126s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-17 10:12:22,2023-07-17 10:12:39,17.684s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/loginPage/android.loginPage.Field.Username""), 0)",,,,2023-07-17 10:12:39,2023-07-17 10:12:40,0.414s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin.Logout,,,,2023-07-17 10:12:40,2023-07-17 10:12:47,7.499s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-17 10:12:40,2023-07-17 10:12:47,7.473s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin.Logout,,,,2023-07-17 10:12:47,2023-07-17 10:12:59,11.139s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-17 10:12:47,2023-07-17 10:12:58,10.723s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/loginPage/android.loginPage.Field.Username""), 0)",,,,2023-07-17 10:12:58,2023-07-17 10:12:59,0.402s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin.Logout,,,,2023-07-17 10:12:59,2023-07-17 10:13:10,11.466s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-17 10:12:59,2023-07-17 10:13:10,10.941s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/loginPage/android.loginPage.Field.Username""), 0)",,,,2023-07-17 10:13:10,2023-07-17 10:13:10,0.513s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin.Logout,,,,2023-07-17 10:13:10,2023-07-17 10:13:21,11.096s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-17 10:13:10,2023-07-17 10:13:21,10.714s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/loginPage/android.loginPage.Field.Username""), 0)",,,,2023-07-17 10:13:21,2023-07-17 10:13:21,0.366s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin.Logout,,,,2023-07-17 10:13:21,2023-07-17 10:13:33,11.284s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-17 10:13:21,2023-07-17 10:13:32,10.886s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/loginPage/android.loginPage.Field.Username""), 0)",,,,2023-07-17 10:13:32,2023-07-17 10:13:33,0.385s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin.Logout,,,,2023-07-17 10:13:33,2023-07-17 10:13:44,11.584s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-17 10:13:33,2023-07-17 10:13:44,11.012s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/loginPage/android.loginPage.Field.Username""), 0)",,,,2023-07-17 10:13:44,2023-07-17 10:13:44,0.559s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin.Logout,,,,2023-07-17 10:13:44,2023-07-17 10:13:56,11.471s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-17 10:13:44,2023-07-17 10:13:55,11.033s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/loginPage/android.loginPage.Field.Username""), 0)",,,,2023-07-17 10:13:55,2023-07-17 10:13:56,0.423s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin.Logout,,,,2023-07-17 10:13:56,2023-07-17 10:16:11,2m - 15.143s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-17 10:13:56,2023-07-17 10:16:11,2m - 15.128s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin.Logout,,,,2023-07-17 10:16:11,2023-07-17 10:16:31,20.104s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-17 10:16:11,2023-07-17 10:16:31,20.088s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin.Logout,,,,2023-07-17 10:16:31,2023-07-17 10:16:58,27.143s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-17 10:16:31,2023-07-17 10:16:58,26.857s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/loginPage/android.loginPage.Field.Username""), 0)",,,,2023-07-17 10:16:58,2023-07-17 10:16:58,0.276s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin.Logout,,,,2023-07-17 10:16:58,2023-07-17 10:17:09,10.718s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-17 10:16:58,2023-07-17 10:17:09,10.443s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/loginPage/android.loginPage.Field.Username""), 0)",,,,2023-07-17 10:17:09,2023-07-17 10:17:09,0.264s,FAILED

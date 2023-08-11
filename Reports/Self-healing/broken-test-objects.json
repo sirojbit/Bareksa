@@ -1,0 +1,44 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/registerAnggota/Page_FMUI/button_Add",
+      "brokenLocator": "//button[@type\u003d\u0027button\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[@type\u003d\u0027button\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/registerAnggota/Page_FMUI/button_Add_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/registerAnggota/Page_FMUI/div_DEV 06 APRIL 2023",
+      "brokenLocator": "//div[@id\u003d\u0027a123ca5f227d-0\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Select Mitra\u0027])[1]/following::div[5]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/registerAnggota/Page_FMUI/Page_FMUI/button_Add",
+      "brokenLocator": "//button[@type\u003d\u0027button\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[@type\u003d\u0027button\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/registerAnggota/Page_FMUI/Page_FMUI/button_Add_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/registerAnggota/Page_FMUI/Page_FMUI/div_DEV 06 APRIL 2023",
+      "brokenLocator": "//div[@id\u003d\u0027a642d355699e-0\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Select Mitra\u0027])[1]/following::div[5]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    }
+  ]
+}

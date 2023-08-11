@@ -1,0 +1,71 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PenugasanSubmit,,"Mengerjakan Penugasan Sampai Submit
+Sync Task > Penugasan (Via Menu Button)",,2023-07-17 12:01:28,2023-07-17 12:03:27,1m - 59.246s,PASSED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin,,,,2023-07-17 12:01:28,2023-07-17 12:02:02,33.796s,PASSED
+"startApplication(""C:\Adwityo\FM-UI\APK-DEV\fmui-dev-1.91.apk"", false)",,,,2023-07-17 12:01:29,2023-07-17 12:01:50,20.506s,PASSED
+"tap(findTestObject(""androidButtons/FMUI(DEV)/loginPage/android.loginPage.Field.Username""), 0)",,,,2023-07-17 12:01:50,2023-07-17 12:01:54,4.451s,PASSED
+driver = getDriver(),,,,2023-07-17 12:01:54,2023-07-17 12:01:54,0.002s,PASSED
+"getKeyboard().sendKeys(""mitra130323"")",,,,2023-07-17 12:01:54,2023-07-17 12:01:55,0.603s,PASSED
+hideKeyboard(),,,,2023-07-17 12:01:55,2023-07-17 12:01:57,1.681s,PASSED
+"tap(findTestObject(""androidButtons/FMUI(DEV)/loginPage/android.loginPage.Field.Password""), 0)",,,,2023-07-17 12:01:57,2023-07-17 12:01:59,2.016s,PASSED
+"getKeyboard().sendKeys(""1234Qwer"")",,,,2023-07-17 12:01:59,2023-07-17 12:01:59,0.464s,PASSED
+hideKeyboard(),,,,2023-07-17 12:01:59,2023-07-17 12:02:01,1.649s,PASSED
+"tap(findTestObject(""androidButtons/FMUI(DEV)/loginPage/androidButtonLogin""), 2)",,,,2023-07-17 12:02:01,2023-07-17 12:02:02,1.387s,PASSED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/Penugasan/PenugasanSyncTask,,Melakukan Sync Task,,2023-07-17 12:02:02,2023-07-17 12:02:25,22.767s,PASSED
+"tap(findTestObject(""androidButtons/FMUI(DEV)/homePage/androidButtonProfile""), 0)",,,,2023-07-17 12:02:03,2023-07-17 12:02:18,15.600s,PASSED
+"verifyElementVisible(findTestObject(""android.Page.ProfileView""), 0)",,,,2023-07-17 12:02:18,2023-07-17 12:02:19,0.893s,PASSED
+"tap(findTestObject(""androidButtons/FMUI(DEV)/profilePage/android.profilePage.ButtonSyncTask""), 0)",,,,2023-07-17 12:02:19,2023-07-17 12:02:20,0.831s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-07-17 12:02:20,2023-07-17 12:02:25,5.036s,PASSED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/Penugasan/Penugasan_SampaiDraft,,,,2023-07-17 12:02:25,2023-07-17 12:02:45,20.298s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-07-17 12:02:25,2023-07-17 12:02:30,5.009s,PASSED
+"verifyElementVisible(findTestObject(""android.Page.ProfileView""), 3)",,,,2023-07-17 12:02:30,2023-07-17 12:02:31,0.302s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-07-17 12:02:31,2023-07-17 12:02:36,5.004s,PASSED
+"tap(findTestObject(""androidButtonMenu""), 0)",,,,2023-07-17 12:02:36,2023-07-17 12:02:37,1.086s,PASSED
+"tap(findTestObject(""androidButtons/FMUI(DEV)/menuPage/android.menuPage.Button.Penugasan""), 0)",,,,2023-07-17 12:02:37,2023-07-17 12:02:38,1.345s,PASSED
+"tap(findTestObject(""androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.cardPenugasan""), 0)",,,,2023-07-17 12:02:38,2023-07-17 12:02:38,0.316s,PASSED
+"tap(findTestObject(""androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Selanjutnya""), 0)",,,,2023-07-17 12:02:38,2023-07-17 12:02:41,2.414s,PASSED
+"swipe(0, 1926, 0, 1472)",,,,2023-07-17 12:02:41,2023-07-17 12:02:42,1.067s,PASSED
+"verifyElementExist(findTestObject(""androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.selanjutnyaInformasi""), 3)",,,,2023-07-17 12:02:42,2023-07-17 12:02:42,0.369s,PASSED
+"tap(findTestObject(""androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.selanjutnyaInformasi""), 0)",,,,2023-07-17 12:02:42,2023-07-17 12:02:43,1.096s,PASSED
+"tap(findTestObject(""androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.back(PojokKananAtas)""), 0)",,,,2023-07-17 12:02:43,2023-07-17 12:02:44,0.817s,PASSED
+"tap(findTestObject(""androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.back(PojokKananAtas)""), 0)",,,,2023-07-17 12:02:44,2023-07-17 12:02:45,0.825s,PASSED
+"tap(findTestObject(""androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.popUpPage.yesButton""), 0)",,,,2023-07-17 12:02:45,2023-07-17 12:02:45,0.286s,PASSED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/Penugasan/PenugasanTimsusOrReguler_BelumAdaKesepakatan,,,,2023-07-17 12:02:45,2023-07-17 12:03:27,41.960s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-07-17 12:02:46,2023-07-17 12:02:51,5.018s,PASSED
+"tap(findTestObject(""android.widget.Button""), 0)",,,,2023-07-17 12:02:51,2023-07-17 12:02:52,1.217s,PASSED
+"swipe(0, 1926, 0, 1472)",,,,2023-07-17 12:02:52,2023-07-17 12:02:53,1.040s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.Button (1)""), 0)",,,,2023-07-17 12:02:53,2023-07-17 12:02:54,1.149s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Question1""), 0)",,,,2023-07-17 12:02:54,2023-07-17 12:02:55,1.090s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.DDL1.List1""), 0)",,,,2023-07-17 12:02:55,2023-07-17 12:02:56,0.967s,PASSED
+"tap(findTestObject(""Object Repository/android.view.View""), 0)",,,,2023-07-17 12:02:56,2023-07-17 12:02:57,1.034s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.DDL1.List2""), 0)",,,,2023-07-17 12:02:57,2023-07-17 12:02:58,0.981s,PASSED
+"tap(findTestObject(""Object Repository/android.view.View (1)""), 0)",,,,2023-07-17 12:02:58,2023-07-17 12:02:59,1.026s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.DDL1.List3""), 0)",,,,2023-07-17 12:02:59,2023-07-17 12:03:00,0.978s,PASSED
+"tap(findTestObject(""Object Repository/android.view.View (2)""), 0)",,,,2023-07-17 12:03:00,2023-07-17 12:03:01,1.067s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.DDL1.List4""), 0)",,,,2023-07-17 12:03:01,2023-07-17 12:03:02,0.960s,PASSED
+"tap(findTestObject(""Object Repository/android.view.View (3)""), 0)",,,,2023-07-17 12:03:02,2023-07-17 12:03:03,1.016s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.DDL1.List5""), 0)",,,,2023-07-17 12:03:03,2023-07-17 12:03:03,0.312s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Question2""), 0)",,,,2023-07-17 12:03:03,2023-07-17 12:03:05,1.683s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.DDL2.List1""), 0)",,,,2023-07-17 12:03:05,2023-07-17 12:03:06,0.989s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Question3""), 0)",,,,2023-07-17 12:03:06,2023-07-17 12:03:07,1.069s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.DDL3.List1""), 0)",,,,2023-07-17 12:03:07,2023-07-17 12:03:07,0.294s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Question4""), 0)",,,,2023-07-17 12:03:07,2023-07-17 12:03:09,1.690s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.DDL4.List1""), 0)",,,,2023-07-17 12:03:09,2023-07-17 12:03:09,0.313s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Question5""), 0)",,,,2023-07-17 12:03:09,2023-07-17 12:03:11,1.707s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.DDL5.List1""), 0)",,,,2023-07-17 12:03:11,2023-07-17 12:03:12,1.009s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Question6""), 0)",,,,2023-07-17 12:03:12,2023-07-17 12:03:13,0.839s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.OKDatePicker.Question6""), 0)",,,,2023-07-17 12:03:13,2023-07-17 12:03:14,1.156s,PASSED
+"swipe(0, 2113, 0, 1690)",,,,2023-07-17 12:03:14,2023-07-17 12:03:15,1.036s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Question7(RegulerAndTimsus)""), 0)",,,,2023-07-17 12:03:15,2023-07-17 12:03:16,0.293s,PASSED
+"sendKeys(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/penugasanPage/DEL""), ""0817042023"")",,,,2023-07-17 12:03:16,2023-07-17 12:03:17,1.189s,PASSED
+hideKeyboard(),,,,2023-07-17 12:03:17,2023-07-17 12:03:18,1.591s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Question8(RegulerAndTimsus)""), 0)",,,,2023-07-17 12:03:18,2023-07-17 12:03:21,2.243s,PASSED
+"sendKeys(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/penugasanPage/DEL (1)""), ""AutomateTest 17032023"")",,,,2023-07-17 12:03:21,2023-07-17 12:03:21,0.185s,PASSED
+hideKeyboard(),,,,2023-07-17 12:03:21,2023-07-17 12:03:22,1.656s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Kirim(RegulerAndTimsus)""), 0)",,,,2023-07-17 12:03:22,2023-07-17 12:03:24,1.879s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.backToMainPage""), 0)",,,,2023-07-17 12:03:24,2023-07-17 12:03:27,2.272s,PASSED
+closeApplication(),,,,2023-07-17 12:03:27,2023-07-17 12:03:27,0.588s,PASSED

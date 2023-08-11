@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PenugasanSubmit(BelumAdaKesepakatan),,"Mengerjakan Penugasan Sampai Submit
+Sync Task > Penugasan (Via Menu Button)",,2023-07-21 09:23:52,2023-07-21 09:24:50,57.913s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/Penugasan/PenugasanSyncTask,,Melakukan Sync Task,,2023-07-21 09:23:53,2023-07-21 09:24:28,35.203s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-21 09:23:55,2023-07-21 09:24:27,31.890s,PASSED
+"tap(findTestObject(""androidButtons/FMUI(DEV)/homePage/androidButtonProfile""), 0)",,,,2023-07-21 09:24:27,2023-07-21 09:24:28,1.555s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/Penugasan/Penugasan_SampaiDraft,,,,2023-07-21 09:24:28,2023-07-21 09:24:32,3.766s,FAILED
+"delay(2, STOP_ON_FAILURE)",,,,2023-07-21 09:24:30,2023-07-21 09:24:32,2.055s,PASSED
+"verifyElementVisible(findTestObject(""HAPUS/android.Page.ProfileView""), 3)",,,,2023-07-21 09:24:32,2023-07-21 09:24:32,0.454s,FAILED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/Penugasan/PenugasanTimsusOrReguler_BelumAdaKesepakatan,,,,2023-07-21 09:24:32,2023-07-21 09:24:50,17.652s,FAILED
+"startExistingApplication(""pkp.mobile.fmui"", STOP_ON_FAILURE)",,,,2023-07-21 09:24:33,2023-07-21 09:24:47,14.343s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2023-07-21 09:24:47,2023-07-21 09:24:49,2.012s,PASSED
+"tap(findTestObject(""androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Selanjutnya""), 0)",,,,2023-07-21 09:24:49,2023-07-21 09:24:50,0.548s,FAILED

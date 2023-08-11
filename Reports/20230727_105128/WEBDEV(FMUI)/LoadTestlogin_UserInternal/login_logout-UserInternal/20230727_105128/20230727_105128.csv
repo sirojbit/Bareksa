@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+login_logout-UserInternal,Chrome 115.0.0.0,,,2023-07-27 10:51:39,2023-07-27 10:52:50,1m - 10.687s,FAILED
+,,,,,,,
+Test Cases/WEBDEV(FMUI)/loginUserHO,Chrome 115.0.0.0,Melakukan login meggunakan UserHO,,2023-07-27 10:51:40,2023-07-27 10:52:26,46.879s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-27 10:51:40,2023-07-27 10:51:43,2.963s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 115.0.0.0,,,2023-07-27 10:51:43,2023-07-27 10:51:43,0.211s,PASSED
+"navigateToUrl(""https://motif-test.fifgroup.co.id/#/"")",Chrome 115.0.0.0,,,2023-07-27 10:51:43,2023-07-27 10:51:45,1.634s,PASSED
+"enhancedClick(findTestObject(""WEBDEV(FMUI)/loginPage/input_Username_form-control ng-untouched ng_437d41""))",Chrome 115.0.0.0,,,2023-07-27 10:51:45,2023-07-27 10:51:47,2.684s,PASSED
+"sendKeys(findTestObject(""WEBDEV(FMUI)/loginPage/input_Username_form-control ng-untouched ng_437d41""), $USER_CODE)",Chrome 115.0.0.0,,,2023-07-27 10:51:47,2023-07-27 10:51:48,0.187s,PASSED
+"enhancedClick(findTestObject(""WEBDEV(FMUI)/loginPage/input_Password_userPassword""))",Chrome 115.0.0.0,,,2023-07-27 10:51:48,2023-07-27 10:51:50,2.526s,PASSED
+"setEncryptedText(findTestObject(""WEBDEV(FMUI)/loginPage/input_Password_userPassword""), ""8SQVv/p9jVScEs4/2CZsLw=="")",Chrome 115.0.0.0,,,2023-07-27 10:51:50,2023-07-27 10:51:50,0.172s,PASSED
+"enhancedClick(findTestObject(""WEBDEV(FMUI)/loginPage/button_Masuk""))",Chrome 115.0.0.0,,,2023-07-27 10:51:50,2023-07-27 10:51:53,2.458s,PASSED
+delay(5),Chrome 115.0.0.0,,,2023-07-27 10:51:53,2023-07-27 10:51:58,5.049s,PASSED
+"enhancedClick(findTestObject(""WEBDEV(FMUI)/mainPage/Dropdown_Logout""))",Chrome 115.0.0.0,,,2023-07-27 10:51:58,2023-07-27 10:52:26,28.278s,PASSED
+"enhancedClick(findTestObject(""WEBDEV(FMUI)/mainPage/button_Logout""))",Chrome 115.0.0.0,,,2023-07-27 10:52:26,2023-07-27 10:52:26,0.280s,PASSED
+,,,,,,,
+Test Cases/WEBDEV(FMUI)/loginUserHO,Chrome 115.0.0.0,Melakukan login meggunakan UserHO,,2023-07-27 10:52:26,2023-07-27 10:52:50,23.415s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-27 10:52:26,2023-07-27 10:52:29,2.549s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 115.0.0.0,,,2023-07-27 10:52:29,2023-07-27 10:52:29,0.136s,PASSED
+"navigateToUrl(""https://motif-test.fifgroup.co.id/#/"")",Chrome 115.0.0.0,,,2023-07-27 10:52:29,2023-07-27 10:52:30,1.251s,PASSED
+"enhancedClick(findTestObject(""WEBDEV(FMUI)/loginPage/input_Username_form-control ng-untouched ng_437d41""))",Chrome 115.0.0.0,,,2023-07-27 10:52:30,2023-07-27 10:52:33,2.462s,PASSED
+"sendKeys(findTestObject(""WEBDEV(FMUI)/loginPage/input_Username_form-control ng-untouched ng_437d41""), $USER_CODE)",Chrome 115.0.0.0,,,2023-07-27 10:52:33,2023-07-27 10:52:33,0.127s,PASSED
+"enhancedClick(findTestObject(""WEBDEV(FMUI)/loginPage/input_Password_userPassword""))",Chrome 115.0.0.0,,,2023-07-27 10:52:33,2023-07-27 10:52:35,2.459s,PASSED
+"setEncryptedText(findTestObject(""WEBDEV(FMUI)/loginPage/input_Password_userPassword""), ""8SQVv/p9jVScEs4/2CZsLw=="")",Chrome 115.0.0.0,,,2023-07-27 10:52:35,2023-07-27 10:52:36,0.165s,PASSED
+"enhancedClick(findTestObject(""WEBDEV(FMUI)/loginPage/button_Masuk""))",Chrome 115.0.0.0,,,2023-07-27 10:52:36,2023-07-27 10:52:38,2.504s,PASSED
+delay(5),Chrome 115.0.0.0,,,2023-07-27 10:52:38,2023-07-27 10:52:43,5.013s,PASSED
+"enhancedClick(findTestObject(""WEBDEV(FMUI)/mainPage/Dropdown_Logout""))",Chrome 115.0.0.0,,,2023-07-27 10:52:43,2023-07-27 10:52:47,4.164s,FAILED

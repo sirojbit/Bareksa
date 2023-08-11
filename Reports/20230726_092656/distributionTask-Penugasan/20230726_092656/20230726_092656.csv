@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+distributionTask-Penugasan,Chrome 115.0.0.0,Automation distribusi task dan penugasan,,2023-07-26 09:27:49,2023-07-26 09:28:38,49.016s,FAILED
+,,,,,,,
+Test Cases/WEBDEV(FMUI)/loginUserHO,Chrome 115.0.0.0,Melakukan login meggunakan UserHO,,2023-07-26 09:27:49,2023-07-26 09:28:04,15.304s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-26 09:27:50,2023-07-26 09:27:53,3.197s,PASSED
+"navigateToUrl(""https://motif-dev.fifgroup.co.id/#/"")",Chrome 115.0.0.0,,,2023-07-26 09:27:53,2023-07-26 09:27:56,3.097s,PASSED
+"enhancedClick(findTestObject(""WEBDEV(FMUI)/loginPage/input_Username_form-control ng-untouched ng_437d41""))",Chrome 115.0.0.0,,,2023-07-26 09:27:56,2023-07-26 09:27:59,2.715s,PASSED
+"setText(findTestObject(""WEBDEV(FMUI)/loginPage/input_Username_form-control ng-untouched ng_437d41""), ""15958"")",Chrome 115.0.0.0,,,2023-07-26 09:27:59,2023-07-26 09:27:59,0.442s,PASSED
+"enhancedClick(findTestObject(""WEBDEV(FMUI)/loginPage/input_Password_userPassword""))",Chrome 115.0.0.0,,,2023-07-26 09:27:59,2023-07-26 09:28:02,2.566s,PASSED
+"setEncryptedText(findTestObject(""WEBDEV(FMUI)/loginPage/input_Password_userPassword""), ""8SQVv/p9jVScEs4/2CZsLw=="")",Chrome 115.0.0.0,,,2023-07-26 09:28:02,2023-07-26 09:28:02,0.231s,PASSED
+"enhancedClick(findTestObject(""WEBDEV(FMUI)/loginPage/button_Masuk""))",Chrome 115.0.0.0,,,2023-07-26 09:28:02,2023-07-26 09:28:04,2.493s,PASSED
+,,,,,,,
+Test Cases/WEBDEV(FMUI)/task_taskDistribution/distributeTask,Chrome 115.0.0.0,Melakukan distribusi task,,2023-07-26 09:28:04,2023-07-26 09:28:38,33.287s,FAILED
+"click(findTestObject(""WEBDEV(FMUI)/task_taskDistribution/a_TASK""))",Chrome 115.0.0.0,,,2023-07-26 09:28:06,2023-07-26 09:28:37,31.306s,PASSED
+"click(findTestObject(""WEBDEV(FMUI)/task_taskDistribution/span_DISTRIBUTION TASK""))",Chrome 115.0.0.0,,,2023-07-26 09:28:37,2023-07-26 09:28:38,0.238s,FAILED

@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PenugasanSyncTask-PenugasanBayar,,,,2023-08-02 10:30:26,2023-08-02 10:31:31,1m - 5.239s,PASSED
+,,,,,,,
+Test Cases/APKTEST(FMUI)/Penugasan/PenugasanSyncTask,,Melakukan Sync Task,,2023-08-02 10:30:27,2023-08-02 10:30:55,28.566s,PASSED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-08-02 10:30:27,2023-08-02 10:30:48,20.668s,PASSED
+"tap(findTestObject(""androidButtons/FMUI(DEV)/homePage/androidButtonProfile""), 0)",,,,2023-08-02 10:30:48,2023-08-02 10:30:49,1.249s,PASSED
+"verifyElementVisible(findTestObject(""HAPUS/android.Page.ProfileView""), 0)",,,,2023-08-02 10:30:49,2023-08-02 10:30:49,0.332s,PASSED
+"tap(findTestObject(""androidButtons/FMUI(DEV)/profilePage/android.profilePage.ButtonSyncTask""), 0)",,,,2023-08-02 10:30:49,2023-08-02 10:30:50,0.777s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-08-02 10:30:50,2023-08-02 10:30:55,5.063s,PASSED
+,,,,,,,
+Test Cases/APKTEST(FMUI)/Penugasan/Penugasan_SampaiDraft,,,,2023-08-02 10:30:55,2023-08-02 10:31:31,36.293s,PASSED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-08-02 10:30:55,2023-08-02 10:31:11,15.630s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2023-08-02 10:31:11,2023-08-02 10:31:13,2.016s,PASSED
+"verifyElementVisible(findTestObject(""HAPUS/android.Page.ProfileView""), 3)",,,,2023-08-02 10:31:13,2023-08-02 10:31:13,0.458s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-08-02 10:31:13,2023-08-02 10:31:18,5.017s,PASSED
+"tap(findTestObject(""HAPUS/androidButtonMenu""), 0)",,,,2023-08-02 10:31:18,2023-08-02 10:31:20,1.097s,PASSED
+"tap(findTestObject(""androidButtons/FMUI(DEV)/menuPage/android.menuPage.Button.Penugasan""), 0)",,,,2023-08-02 10:31:20,2023-08-02 10:31:21,1.371s,PASSED
+"tap(findTestObject(""androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.cardPenugasan""), 0)",,,,2023-08-02 10:31:21,2023-08-02 10:31:22,1.301s,PASSED
+"tap(findTestObject(""androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.Selanjutnya""), 0)",,,,2023-08-02 10:31:22,2023-08-02 10:31:24,1.373s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2023-08-02 10:31:24,2023-08-02 10:31:26,2.015s,PASSED
+"swipe(0, 1926, 0, 1472)",,,,2023-08-02 10:31:26,2023-08-02 10:31:27,1.152s,PASSED
+"verifyElementExist(findTestObject(""androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.selanjutnyaInformasi""), 3)",,,,2023-08-02 10:31:27,2023-08-02 10:31:27,0.236s,PASSED
+"tap(findTestObject(""androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.selanjutnyaInformasi""), 0)",,,,2023-08-02 10:31:27,2023-08-02 10:31:28,1.123s,PASSED
+"tap(findTestObject(""androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.back(PojokKananAtas)""), 0)",,,,2023-08-02 10:31:28,2023-08-02 10:31:29,0.815s,PASSED
+"tap(findTestObject(""androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.Button.back(PojokKananAtas)""), 0)",,,,2023-08-02 10:31:29,2023-08-02 10:31:30,1.314s,PASSED
+"tap(findTestObject(""androidButtons/FMUI(DEV)/penugasanPage/android.Penugasan.popUpPage.yesButton""), 0)",,,,2023-08-02 10:31:30,2023-08-02 10:31:31,1.096s,PASSED

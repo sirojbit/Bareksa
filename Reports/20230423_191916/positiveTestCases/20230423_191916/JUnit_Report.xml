@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="positiveTestCases" time="165.282" tests="2" failures="0" errors="0">
+   <testsuite name="positiveTestCases" tests="2" failures="0" errors="0" time="165.282" skipped="0" timestamp="2023-04-23 19:19:26" hostname="User - 10.30.6.111" id="Test Suites/positiveTestCases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\User\\Katalon Studio\\Spartan Gym Test\\Reports\\20230423_191916\\positiveTestCases\\20230423_191916"/>
+         <property name="logFiles" value="C:\\Users\\User\\Katalon Studio\\Spartan Gym Test\\Reports\\20230423_191916\\positiveTestCases\\20230423_191916\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - 10.30.6.111"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 112.0.0.0"/>
+         <property name="hostAddress" value="10.30.6.111"/>
+         <property name="sessionId" value="c54bfd5adc77dc38cb32f1a35d9eeb36"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/testLogin10Times" time="150.378" classname="Test Cases/testLogin10Times" status="PASSED">
+         <system-out><![CDATA[2023-04-23 19:19:26 - [TEST_CASE][PASSED] - Test Cases/testLogin10Times: Test Cases/testLogin10Times
+
+2023-04-23 19:19:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("testValidLoginAdmin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/testValidLoginAdmin' successfully
+
+2023-04-23 19:19:27 - [TEST_CASE][PASSED] - Test Cases/testValidLoginAdmin: Test Cases/testValidLoginAdmin
+
+2023-04-23 19:19:27 - [TEST_STEP][PASSED] - openBrowser("https://spartangym.great-site.net/spartan/"): Browser is opened with url: 'https://spartangym.great-site.net/spartan/'
+
+2023-04-23 19:19:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-23 19:19:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-23 19:19:35 - [MESSAGE][PASSED] - Browser is opened with url: 'https://spartangym.great-site.net/spartan/'
+
+2023-04-23 19:19:35 - [TEST_STEP][PASSED] - setText(findTestObject("usernameFieldAdmin"), "adminspartan"): Text 'adminspartan' is set on object 'Object Repository/usernameFieldAdmin'
+
+2023-04-23 19:19:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:19:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:19:36 - [MESSAGE][PASSED] - Text 'adminspartan' is set on object 'Object Repository/usernameFieldAdmin'
+
+2023-04-23 19:19:36 - [TEST_STEP][PASSED] - setText(findTestObject("passwordFieldAdmin"), "adminspartan"): Text 'adminspartan' is set on object 'Object Repository/passwordFieldAdmin'
+
+2023-04-23 19:19:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:19:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:19:37 - [MESSAGE][PASSED] - Text 'adminspartan' is set on object 'Object Repository/passwordFieldAdmin'
+
+2023-04-23 19:19:37 - [TEST_STEP][PASSED] - click(findTestObject("buttonLoginAdmin")): Object: 'Object Repository/buttonLoginAdmin' is clicked on
+
+2023-04-23 19:19:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:19:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:19:43 - [MESSAGE][PASSED] - Object: 'Object Repository/buttonLoginAdmin' is clicked on
+
+2023-04-23 19:19:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/testValidLoginAdmin' successfully
+
+2023-04-23 19:19:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("testValidLoginAdmin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/testValidLoginAdmin' successfully
+
+2023-04-23 19:19:43 - [TEST_CASE][PASSED] - Test Cases/testValidLoginAdmin: Test Cases/testValidLoginAdmin
+
+2023-04-23 19:19:43 - [TEST_STEP][PASSED] - openBrowser("https://spartangym.great-site.net/spartan/"): Browser is opened with url: 'https://spartangym.great-site.net/spartan/'
+
+2023-04-23 19:19:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-04-23 19:19:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-23 19:19:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-23 19:19:49 - [MESSAGE][PASSED] - Browser is opened with url: 'https://spartangym.great-site.net/spartan/'
+
+2023-04-23 19:19:49 - [TEST_STEP][PASSED] - setText(findTestObject("usernameFieldAdmin"), "adminspartan"): Text 'adminspartan' is set on object 'Object Repository/usernameFieldAdmin'
+
+2023-04-23 19:19:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:19:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:19:50 - [MESSAGE][PASSED] - Text 'adminspartan' is set on object 'Object Repository/usernameFieldAdmin'
+
+2023-04-23 19:19:50 - [TEST_STEP][PASSED] - setText(findTestObject("passwordFieldAdmin"), "adminspartan"): Text 'adminspartan' is set on object 'Object Repository/passwordFieldAdmin'
+
+2023-04-23 19:19:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:19:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:19:51 - [MESSAGE][PASSED] - Text 'adminspartan' is set on object 'Object Repository/passwordFieldAdmin'
+
+2023-04-23 19:19:51 - [TEST_STEP][PASSED] - click(findTestObject("buttonLoginAdmin")): Object: 'Object Repository/buttonLoginAdmin' is clicked on
+
+2023-04-23 19:19:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:19:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:19:57 - [MESSAGE][PASSED] - Object: 'Object Repository/buttonLoginAdmin' is clicked on
+
+2023-04-23 19:19:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/testValidLoginAdmin' successfully
+
+2023-04-23 19:19:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("testValidLoginAdmin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/testValidLoginAdmin' successfully
+
+2023-04-23 19:19:57 - [TEST_CASE][PASSED] - Test Cases/testValidLoginAdmin: Test Cases/testValidLoginAdmin
+
+2023-04-23 19:19:57 - [TEST_STEP][PASSED] - openBrowser("https://spartangym.great-site.net/spartan/"): Browser is opened with url: 'https://spartangym.great-site.net/spartan/'
+
+2023-04-23 19:19:57 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-04-23 19:19:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-23 19:19:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-23 19:20:05 - [MESSAGE][PASSED] - Browser is opened with url: 'https://spartangym.great-site.net/spartan/'
+
+2023-04-23 19:20:05 - [TEST_STEP][PASSED] - setText(findTestObject("usernameFieldAdmin"), "adminspartan"): Text 'adminspartan' is set on object 'Object Repository/usernameFieldAdmin'
+
+2023-04-23 19:20:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:20:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:20:06 - [MESSAGE][PASSED] - Text 'adminspartan' is set on object 'Object Repository/usernameFieldAdmin'
+
+2023-04-23 19:20:06 - [TEST_STEP][PASSED] - setText(findTestObject("passwordFieldAdmin"), "adminspartan"): Text 'adminspartan' is set on object 'Object Repository/passwordFieldAdmin'
+
+2023-04-23 19:20:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:20:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:20:06 - [MESSAGE][PASSED] - Text 'adminspartan' is set on object 'Object Repository/passwordFieldAdmin'
+
+2023-04-23 19:20:06 - [TEST_STEP][PASSED] - click(findTestObject("buttonLoginAdmin")): Object: 'Object Repository/buttonLoginAdmin' is clicked on
+
+2023-04-23 19:20:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:20:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:20:12 - [MESSAGE][PASSED] - Object: 'Object Repository/buttonLoginAdmin' is clicked on
+
+2023-04-23 19:20:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/testValidLoginAdmin' successfully
+
+2023-04-23 19:20:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("testValidLoginAdmin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/testValidLoginAdmin' successfully
+
+2023-04-23 19:20:12 - [TEST_CASE][PASSED] - Test Cases/testValidLoginAdmin: Test Cases/testValidLoginAdmin
+
+2023-04-23 19:20:12 - [TEST_STEP][PASSED] - openBrowser("https://spartangym.great-site.net/spartan/"): Browser is opened with url: 'https://spartangym.great-site.net/spartan/'
+
+2023-04-23 19:20:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-04-23 19:20:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-23 19:20:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-23 19:20:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://spartangym.great-site.net/spartan/'
+
+2023-04-23 19:20:20 - [TEST_STEP][PASSED] - setText(findTestObject("usernameFieldAdmin"), "adminspartan"): Text 'adminspartan' is set on object 'Object Repository/usernameFieldAdmin'
+
+2023-04-23 19:20:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:20:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:20:21 - [MESSAGE][PASSED] - Text 'adminspartan' is set on object 'Object Repository/usernameFieldAdmin'
+
+2023-04-23 19:20:21 - [TEST_STEP][PASSED] - setText(findTestObject("passwordFieldAdmin"), "adminspartan"): Text 'adminspartan' is set on object 'Object Repository/passwordFieldAdmin'
+
+2023-04-23 19:20:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:20:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:20:21 - [MESSAGE][PASSED] - Text 'adminspartan' is set on object 'Object Repository/passwordFieldAdmin'
+
+2023-04-23 19:20:21 - [TEST_STEP][PASSED] - click(findTestObject("buttonLoginAdmin")): Object: 'Object Repository/buttonLoginAdmin' is clicked on
+
+2023-04-23 19:20:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:20:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:20:27 - [MESSAGE][PASSED] - Object: 'Object Repository/buttonLoginAdmin' is clicked on
+
+2023-04-23 19:20:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/testValidLoginAdmin' successfully
+
+2023-04-23 19:20:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("testValidLoginAdmin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/testValidLoginAdmin' successfully
+
+2023-04-23 19:20:28 - [TEST_CASE][PASSED] - Test Cases/testValidLoginAdmin: Test Cases/testValidLoginAdmin
+
+2023-04-23 19:20:28 - [TEST_STEP][PASSED] - openBrowser("https://spartangym.great-site.net/spartan/"): Browser is opened with url: 'https://spartangym.great-site.net/spartan/'
+
+2023-04-23 19:20:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-04-23 19:20:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-23 19:20:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-23 19:20:35 - [MESSAGE][PASSED] - Browser is opened with url: 'https://spartangym.great-site.net/spartan/'
+
+2023-04-23 19:20:35 - [TEST_STEP][PASSED] - setText(findTestObject("usernameFieldAdmin"), "adminspartan"): Text 'adminspartan' is set on object 'Object Repository/usernameFieldAdmin'
+
+2023-04-23 19:20:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:20:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:20:35 - [MESSAGE][PASSED] - Text 'adminspartan' is set on object 'Object Repository/usernameFieldAdmin'
+
+2023-04-23 19:20:35 - [TEST_STEP][PASSED] - setText(findTestObject("passwordFieldAdmin"), "adminspartan"): Text 'adminspartan' is set on object 'Object Repository/passwordFieldAdmin'
+
+2023-04-23 19:20:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:20:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:20:36 - [MESSAGE][PASSED] - Text 'adminspartan' is set on object 'Object Repository/passwordFieldAdmin'
+
+2023-04-23 19:20:36 - [TEST_STEP][PASSED] - click(findTestObject("buttonLoginAdmin")): Object: 'Object Repository/buttonLoginAdmin' is clicked on
+
+2023-04-23 19:20:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:20:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:20:42 - [MESSAGE][PASSED] - Object: 'Object Repository/buttonLoginAdmin' is clicked on
+
+2023-04-23 19:20:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/testValidLoginAdmin' successfully
+
+2023-04-23 19:20:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("testValidLoginAdmin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/testValidLoginAdmin' successfully
+
+2023-04-23 19:20:42 - [TEST_CASE][PASSED] - Test Cases/testValidLoginAdmin: Test Cases/testValidLoginAdmin
+
+2023-04-23 19:20:42 - [TEST_STEP][PASSED] - openBrowser("https://spartangym.great-site.net/spartan/"): Browser is opened with url: 'https://spartangym.great-site.net/spartan/'
+
+2023-04-23 19:20:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-04-23 19:20:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-23 19:20:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-23 19:20:49 - [MESSAGE][PASSED] - Browser is opened with url: 'https://spartangym.great-site.net/spartan/'
+
+2023-04-23 19:20:49 - [TEST_STEP][PASSED] - setText(findTestObject("usernameFieldAdmin"), "adminspartan"): Text 'adminspartan' is set on object 'Object Repository/usernameFieldAdmin'
+
+2023-04-23 19:20:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:20:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:20:50 - [MESSAGE][PASSED] - Text 'adminspartan' is set on object 'Object Repository/usernameFieldAdmin'
+
+2023-04-23 19:20:50 - [TEST_STEP][PASSED] - setText(findTestObject("passwordFieldAdmin"), "adminspartan"): Text 'adminspartan' is set on object 'Object Repository/passwordFieldAdmin'
+
+2023-04-23 19:20:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:20:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:20:51 - [MESSAGE][PASSED] - Text 'adminspartan' is set on object 'Object Repository/passwordFieldAdmin'
+
+2023-04-23 19:20:51 - [TEST_STEP][PASSED] - click(findTestObject("buttonLoginAdmin")): Object: 'Object Repository/buttonLoginAdmin' is clicked on
+
+2023-04-23 19:20:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:20:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:20:57 - [MESSAGE][PASSED] - Object: 'Object Repository/buttonLoginAdmin' is clicked on
+
+2023-04-23 19:20:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/testValidLoginAdmin' successfully
+
+2023-04-23 19:20:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("testValidLoginAdmin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/testValidLoginAdmin' successfully
+
+2023-04-23 19:20:57 - [TEST_CASE][PASSED] - Test Cases/testValidLoginAdmin: Test Cases/testValidLoginAdmin
+
+2023-04-23 19:20:57 - [TEST_STEP][PASSED] - openBrowser("https://spartangym.great-site.net/spartan/"): Browser is opened with url: 'https://spartangym.great-site.net/spartan/'
+
+2023-04-23 19:20:57 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-04-23 19:20:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-23 19:20:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-23 19:21:04 - [MESSAGE][PASSED] - Browser is opened with url: 'https://spartangym.great-site.net/spartan/'
+
+2023-04-23 19:21:04 - [TEST_STEP][PASSED] - setText(findTestObject("usernameFieldAdmin"), "adminspartan"): Text 'adminspartan' is set on object 'Object Repository/usernameFieldAdmin'
+
+2023-04-23 19:21:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:21:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:21:04 - [MESSAGE][PASSED] - Text 'adminspartan' is set on object 'Object Repository/usernameFieldAdmin'
+
+2023-04-23 19:21:04 - [TEST_STEP][PASSED] - setText(findTestObject("passwordFieldAdmin"), "adminspartan"): Text 'adminspartan' is set on object 'Object Repository/passwordFieldAdmin'
+
+2023-04-23 19:21:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:21:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:21:05 - [MESSAGE][PASSED] - Text 'adminspartan' is set on object 'Object Repository/passwordFieldAdmin'
+
+2023-04-23 19:21:05 - [TEST_STEP][PASSED] - click(findTestObject("buttonLoginAdmin")): Object: 'Object Repository/buttonLoginAdmin' is clicked on
+
+2023-04-23 19:21:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:21:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:21:11 - [MESSAGE][PASSED] - Object: 'Object Repository/buttonLoginAdmin' is clicked on
+
+2023-04-23 19:21:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/testValidLoginAdmin' successfully
+
+2023-04-23 19:21:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("testValidLoginAdmin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/testValidLoginAdmin' successfully
+
+2023-04-23 19:21:11 - [TEST_CASE][PASSED] - Test Cases/testValidLoginAdmin: Test Cases/testValidLoginAdmin
+
+2023-04-23 19:21:11 - [TEST_STEP][PASSED] - openBrowser("https://spartangym.great-site.net/spartan/"): Browser is opened with url: 'https://spartangym.great-site.net/spartan/'
+
+2023-04-23 19:21:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-04-23 19:21:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-23 19:21:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-23 19:21:18 - [MESSAGE][PASSED] - Browser is opened with url: 'https://spartangym.great-site.net/spartan/'
+
+2023-04-23 19:21:18 - [TEST_STEP][PASSED] - setText(findTestObject("usernameFieldAdmin"), "adminspartan"): Text 'adminspartan' is set on object 'Object Repository/usernameFieldAdmin'
+
+2023-04-23 19:21:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:21:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:21:19 - [MESSAGE][PASSED] - Text 'adminspartan' is set on object 'Object Repository/usernameFieldAdmin'
+
+2023-04-23 19:21:19 - [TEST_STEP][PASSED] - setText(findTestObject("passwordFieldAdmin"), "adminspartan"): Text 'adminspartan' is set on object 'Object Repository/passwordFieldAdmin'
+
+2023-04-23 19:21:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:21:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:21:20 - [MESSAGE][PASSED] - Text 'adminspartan' is set on object 'Object Repository/passwordFieldAdmin'
+
+2023-04-23 19:21:20 - [TEST_STEP][PASSED] - click(findTestObject("buttonLoginAdmin")): Object: 'Object Repository/buttonLoginAdmin' is clicked on
+
+2023-04-23 19:21:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:21:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:21:26 - [MESSAGE][PASSED] - Object: 'Object Repository/buttonLoginAdmin' is clicked on
+
+2023-04-23 19:21:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/testValidLoginAdmin' successfully
+
+2023-04-23 19:21:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("testValidLoginAdmin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/testValidLoginAdmin' successfully
+
+2023-04-23 19:21:26 - [TEST_CASE][PASSED] - Test Cases/testValidLoginAdmin: Test Cases/testValidLoginAdmin
+
+2023-04-23 19:21:26 - [TEST_STEP][PASSED] - openBrowser("https://spartangym.great-site.net/spartan/"): Browser is opened with url: 'https://spartangym.great-site.net/spartan/'
+
+2023-04-23 19:21:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-04-23 19:21:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-23 19:21:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-23 19:21:33 - [MESSAGE][PASSED] - Browser is opened with url: 'https://spartangym.great-site.net/spartan/'
+
+2023-04-23 19:21:33 - [TEST_STEP][PASSED] - setText(findTestObject("usernameFieldAdmin"), "adminspartan"): Text 'adminspartan' is set on object 'Object Repository/usernameFieldAdmin'
+
+2023-04-23 19:21:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:21:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:21:34 - [MESSAGE][PASSED] - Text 'adminspartan' is set on object 'Object Repository/usernameFieldAdmin'
+
+2023-04-23 19:21:34 - [TEST_STEP][PASSED] - setText(findTestObject("passwordFieldAdmin"), "adminspartan"): Text 'adminspartan' is set on object 'Object Repository/passwordFieldAdmin'
+
+2023-04-23 19:21:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:21:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:21:35 - [MESSAGE][PASSED] - Text 'adminspartan' is set on object 'Object Repository/passwordFieldAdmin'
+
+2023-04-23 19:21:35 - [TEST_STEP][PASSED] - click(findTestObject("buttonLoginAdmin")): Object: 'Object Repository/buttonLoginAdmin' is clicked on
+
+2023-04-23 19:21:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:21:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:21:41 - [MESSAGE][PASSED] - Object: 'Object Repository/buttonLoginAdmin' is clicked on
+
+2023-04-23 19:21:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/testValidLoginAdmin' successfully
+
+2023-04-23 19:21:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("testValidLoginAdmin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/testValidLoginAdmin' successfully
+
+2023-04-23 19:21:41 - [TEST_CASE][PASSED] - Test Cases/testValidLoginAdmin: Test Cases/testValidLoginAdmin
+
+2023-04-23 19:21:41 - [TEST_STEP][PASSED] - openBrowser("https://spartangym.great-site.net/spartan/"): Browser is opened with url: 'https://spartangym.great-site.net/spartan/'
+
+2023-04-23 19:21:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-04-23 19:21:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-23 19:21:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-23 19:21:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://spartangym.great-site.net/spartan/'
+
+2023-04-23 19:21:47 - [TEST_STEP][PASSED] - setText(findTestObject("usernameFieldAdmin"), "adminspartan"): Text 'adminspartan' is set on object 'Object Repository/usernameFieldAdmin'
+
+2023-04-23 19:21:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:21:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:21:48 - [MESSAGE][PASSED] - Text 'adminspartan' is set on object 'Object Repository/usernameFieldAdmin'
+
+2023-04-23 19:21:48 - [TEST_STEP][PASSED] - setText(findTestObject("passwordFieldAdmin"), "adminspartan"): Text 'adminspartan' is set on object 'Object Repository/passwordFieldAdmin'
+
+2023-04-23 19:21:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:21:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:21:49 - [MESSAGE][PASSED] - Text 'adminspartan' is set on object 'Object Repository/passwordFieldAdmin'
+
+2023-04-23 19:21:49 - [TEST_STEP][PASSED] - click(findTestObject("buttonLoginAdmin")): Object: 'Object Repository/buttonLoginAdmin' is clicked on
+
+2023-04-23 19:21:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:21:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:21:57 - [MESSAGE][PASSED] - Object: 'Object Repository/buttonLoginAdmin' is clicked on
+
+2023-04-23 19:21:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/testValidLoginAdmin' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testValidLoginAdmin" time="14.495" classname="Test Cases/testValidLoginAdmin" status="PASSED">
+         <system-out><![CDATA[2023-04-23 19:21:57 - [TEST_CASE][PASSED] - Test Cases/testValidLoginAdmin: Test Cases/testValidLoginAdmin
+
+2023-04-23 19:21:57 - [TEST_STEP][PASSED] - openBrowser("https://spartangym.great-site.net/spartan/"): Browser is opened with url: 'https://spartangym.great-site.net/spartan/'
+
+2023-04-23 19:21:57 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-04-23 19:21:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-23 19:21:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-23 19:22:04 - [MESSAGE][PASSED] - Browser is opened with url: 'https://spartangym.great-site.net/spartan/'
+
+2023-04-23 19:22:04 - [TEST_STEP][PASSED] - setText(findTestObject("usernameFieldAdmin"), "adminspartan"): Text 'adminspartan' is set on object 'Object Repository/usernameFieldAdmin'
+
+2023-04-23 19:22:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:22:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:22:05 - [MESSAGE][PASSED] - Text 'adminspartan' is set on object 'Object Repository/usernameFieldAdmin'
+
+2023-04-23 19:22:05 - [TEST_STEP][PASSED] - setText(findTestObject("passwordFieldAdmin"), "adminspartan"): Text 'adminspartan' is set on object 'Object Repository/passwordFieldAdmin'
+
+2023-04-23 19:22:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:22:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:22:05 - [MESSAGE][PASSED] - Text 'adminspartan' is set on object 'Object Repository/passwordFieldAdmin'
+
+2023-04-23 19:22:05 - [TEST_STEP][PASSED] - click(findTestObject("buttonLoginAdmin")): Object: 'Object Repository/buttonLoginAdmin' is clicked on
+
+2023-04-23 19:22:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:22:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '0'
+
+2023-04-23 19:22:11 - [MESSAGE][PASSED] - Object: 'Object Repository/buttonLoginAdmin' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-04-23 19:19:26 - [TEST_SUITE][PASSED] - positiveTestCases: Test Cases/testValidLoginAdmin]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

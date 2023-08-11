@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+androidTest,,,,2023-07-11 10:16:59,2023-07-11 10:17:48,48.961s,PASSED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogin,,Login to FMUI APP,,2023-07-11 10:16:59,2023-07-11 10:17:28,28.921s,PASSED
+"startExistingApplication(""pkp.mobile.fmui"")",,,,2023-07-11 10:17:00,2023-07-11 10:17:20,19.992s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/androidFieldUsername""), 0)",,,,2023-07-11 10:17:20,2023-07-11 10:17:21,1.789s,PASSED
+driver = getDriver(),,,,2023-07-11 10:17:21,2023-07-11 10:17:21,0.000s,PASSED
+"getKeyboard().sendKeys(""mitra130323"")",,,,2023-07-11 10:17:21,2023-07-11 10:17:22,0.686s,PASSED
+hideKeyboard(),,,,2023-07-11 10:17:22,2023-07-11 10:17:24,1.853s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/androidFieldPassword""), 0)",,,,2023-07-11 10:17:24,2023-07-11 10:17:25,0.871s,PASSED
+"getKeyboard().sendKeys(""1234Qwer"")",,,,2023-07-11 10:17:25,2023-07-11 10:17:25,0.460s,PASSED
+hideKeyboard(),,,,2023-07-11 10:17:25,2023-07-11 10:17:27,1.792s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/androidButtonLogin""), 0)",,,,2023-07-11 10:17:27,2023-07-11 10:17:28,0.847s,PASSED
+,,,,,,,
+Test Cases/APKDEV(FMUI)/androidLogout,,Loggin Out from FMUI APP (DEV),,2023-07-11 10:17:28,2023-07-11 10:17:48,19.678s,PASSED
+"tap(findTestObject(""Object Repository/androidButtons/androidButtonProfile""), 0)",,,,2023-07-11 10:17:28,2023-07-11 10:17:46,17.325s,PASSED
+"tap(findTestObject(""androidButtons/androidButtonLogout""), 5)",,,,2023-07-11 10:17:46,2023-07-11 10:17:47,1.110s,PASSED
+"tap(findTestObject(""androidButtons/androidButtonSignOut""), 5)",,,,2023-07-11 10:17:47,2023-07-11 10:17:48,0.900s,PASSED
